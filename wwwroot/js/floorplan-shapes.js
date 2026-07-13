@@ -1,4 +1,26 @@
 const symbolPaletteConfig = {
+  connectors: [
+    {
+      id: 'ConnectorStroke1',
+      addInfo: 'Line Connector - Stroke 1',
+      tooltip: { content: 'Line with Stroke Width 1' },
+      type: 'Straight',
+      sourcePoint: { x: 0, y: 0 },
+      targetPoint: { x: 60, y: 60 },
+      style: { strokeWidth: 1 },
+      targetDecorator: { shape: 'None' }
+    },
+    {
+      id: 'ConnectorStroke2',
+      addInfo: 'Line Connector - Stroke 2',
+      tooltip: { content: 'Line with Stroke Width 2' },
+      type: 'Straight',
+      sourcePoint: { x: 0, y: 0 },
+      targetPoint: { x: 60, y: 60 },
+      style: { strokeWidth: 2 },
+      targetDecorator: { shape: 'None' }
+    }
+  ],
   doors: [
     {
       id: 'Doorclose',

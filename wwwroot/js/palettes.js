@@ -16,6 +16,11 @@ var Palettes = (function () {
         var config = symbolPaletteConfig;
         var shapes = [];
         
+        // Add connectors first
+        if (config.connectors && config.connectors.length > 0) {
+            shapes = shapes.concat(config.connectors);
+        }
+        
         // Add all floor plan shapes from all categories
         if (config.doors && config.doors.length > 0) {
             shapes = shapes.concat(config.doors);
