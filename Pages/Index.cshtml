@@ -15,23 +15,16 @@
         </ejs-symbolpalette>
     </div>
     <div class="diagram-content">
-        <ejs-diagram id="diagram" width="100%" height="100%"></ejs-diagram>
+        <ejs-diagram id="diagram" 
+            width="100%" 
+            height="100%">
+        </ejs-diagram>
     </div>
 </div>
 
 @section Scripts {
     <script src="~/js/floorplan-shapes.js"></script>
     <script src="~/js/palettes.js"></script>
-    <script type="text/javascript">
-        function getSymbolInfo(symbol) {
-            return { tooltip: symbol.title };
-        }
-        
-        function getConnectorDefaults(connector) {
-            connector.type = 'Orthogonal';
-            connector.targetDecorator = { shape: 'Arrow' };
-            return connector;
-        }
-    </script>
+    <script src="~/js/diagram-data.js"></script>
     <script src="~/js/diagram-init.js"></script>
 }
