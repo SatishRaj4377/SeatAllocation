@@ -1,36 +1,58 @@
 @page
 @model MathuraModel
+
+@using Syncfusion.EJ2
+@using Syncfusion.EJ2.Navigations
+@using Syncfusion.EJ2.Diagrams
+
 @{
-    ViewData["Title"] = "Floor 2 - Seat Layout";
+    ViewData["Title"] = "Mathura Complex";
     Layout = "_Layout";
+
+    var groundFloorHeader = new TabHeader { Text = "Ground Floor" };
+    var firstFloorHeader = new TabHeader { Text = "First Floor" };
+    var secondFloorHeader = new TabHeader { Text = "Second Floor" };
+    var thirdFloorHeader = new TabHeader { Text = "Third Floor" };
+
+    var groundFloorContent = "#groundFloorDiagramContent";
+    var firstFloorContent = "#firstFloorDiagramContent";
+    var secondFloorContent = "#secondFloorDiagramContent";
+    var thirdFloorContent = "#thirdFloorDiagramContent";
 }
 
-<div class="diagram-container">
-    <div class="palette-container">
-        <h3 style="padding: 10px; text-align: center;">Floor 2 - Symbols</h3>
-        <ejs-symbolpalette id="symbolpalette" 
-            width="100%" 
-            height="100%" 
-            symbolHeight="60"
-            symbolWidth="60">
-        </ejs-symbolpalette>
-    </div>
-    <div class="diagram-content">
-        <ejs-diagram id="diagram" 
-            width="100%" 
-            height="100%">
-        </ejs-diagram>
-    </div>
+<ejs-tab id="mathuraTabs" loadon="@ContentLoad.Init">
+    <e-tab-tabitems>
+        <e-tab-tabitem header="@groundFloorHeader" content="@groundFloorContent"></e-tab-tabitem>
+        <e-tab-tabitem header="@firstFloorHeader" content="@firstFloorContent"></e-tab-tabitem>
+        <e-tab-tabitem header="@secondFloorHeader" content="@secondFloorContent"></e-tab-tabitem>
+        <e-tab-tabitem header="@thirdFloorHeader" content="@thirdFloorContent"></e-tab-tabitem>
+    </e-tab-tabitems>
+</ejs-tab>
+
+<div id="groundFloorDiagramContent" style="display:none">
+    <ejs-diagram id="mathuraGroundFloorDiagram"
+                 width="100%"
+                 height="650px">
+    </ejs-diagram>
 </div>
 
-@section Scripts {
-    <script src="~/js/floorplan-shapes.js"></script>
-    <script src="~/js/palettes.js"></script>
-    <script src="~/js/diagram-data-floor2.js"></script>
-    <script src="~/js/diagram-init.js"></script>
-    <script>
-        document.getElementById('backBtn').addEventListener('click', function() {
-            window.location.href = '/Home';
-        });
-    </script>
-}
+<div id="firstFloorDiagramContent" style="display:none">
+    <ejs-diagram id="mathuraFirstFloorDiagram"
+                 width="100%"
+                 height="650px">
+    </ejs-diagram>
+</div>
+
+<div id="secondFloorDiagramContent" style="display:none">
+    <ejs-diagram id="mathuraSecondFloorDiagram"
+                 width="100%"
+                 height="650px">
+    </ejs-diagram>
+</div>
+
+<div id="thirdFloorDiagramContent" style="display:none">
+    <ejs-diagram id="mathuraThirdFloorDiagram"
+                 width="100%"
+                 height="650px">
+    </ejs-diagram>
+</div>
