@@ -1,0 +1,36 @@
+@page
+@model EymardModel
+@{
+    ViewData["Title"] = "Floor 1 - Seat Layout";
+    Layout = "_Layout";
+}
+
+<div class="diagram-container">
+    <div class="palette-container">
+        <h3 style="padding: 10px; text-align: center;">Floor 1 - Symbols</h3>
+        <ejs-symbolpalette id="symbolpalette" 
+            width="100%" 
+            height="100%" 
+            symbolHeight="60"
+            symbolWidth="60">
+        </ejs-symbolpalette>
+    </div>
+    <div class="diagram-content">
+        <ejs-diagram id="diagram" 
+            width="100%" 
+            height="100%">
+        </ejs-diagram>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/floorplan-shapes.js"></script>
+    <script src="~/js/palettes.js"></script>
+    <script src="~/js/diagram-data.js"></script>
+    <script src="~/js/diagram-init.js"></script>
+    <script>
+        document.getElementById('backBtn').addEventListener('click', function() {
+            window.location.href = '/Home';
+        });
+    </script>
+}
