@@ -2582,9 +2582,6 @@ const MathuraFirstFloorData = {
       offsetY: 1130,
       width: 60.00000000000001,
       height: 60,
-      rotateAngle: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 358,
       shape: {
         type: "Path",
