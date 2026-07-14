@@ -291,34 +291,6 @@ const EymardSecondFloorData = {
       addInfo: "Room"
     },
     {
-      id: "RoomfoAvrgiWdW",
-      offsetX: 550,
-      offsetY: 577.7,
-      width: 60,
-      height: 77.8,
-      rotateAngle: 0,
-      zIndex: 146,
-      shape: {
-        type: "Path",
-        data: "M4 4H104V104H4V4Z"
-      },
-      addInfo: "Room"
-    },
-    {
-      id: "RoomfoAvrgiWdWRJkONpsyXGp8t5h",
-      offsetX: 550,
-      offsetY: 811.1,
-      width: 60,
-      height: 77.8,
-      rotateAngle: 0,
-      zIndex: 154,
-      shape: {
-        type: "Path",
-        data: "M4 4H104V104H4V4Z"
-      },
-      addInfo: "Room"
-    },
-    {
       id: "ChairKLXTgUuF5vOQTh9iaGkIgJDOa",
       offsetX: 598,
       offsetY: 577.7000000000011,
@@ -2604,6 +2576,34 @@ const EymardSecondFloorData = {
       height: 77.8,
       rotateAngle: 0,
       zIndex: 68,
+      shape: {
+        type: "Path",
+        data: "M4 4H104V104H4V4Z"
+      },
+      addInfo: "Room"
+    },
+    {
+      id: "RoomfoAvrgiWdW",
+      offsetX: 550,
+      offsetY: 577.7,
+      width: 60,
+      height: 77.8,
+      rotateAngle: 0,
+      zIndex: 146,
+      shape: {
+        type: "Path",
+        data: "M4 4H104V104H4V4Z"
+      },
+      addInfo: "Room"
+    },
+    {
+      id: "RoomfoAvrgiWdWRJkONpsyXGp8t5h",
+      offsetX: 550,
+      offsetY: 811.1,
+      width: 60,
+      height: 77.8,
+      rotateAngle: 0,
+      zIndex: 154,
       shape: {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
