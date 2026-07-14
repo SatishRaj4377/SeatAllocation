@@ -6,6 +6,7 @@
 function initializeDiagrams() {
     // Define diagram configurations with their respective data sources
     var diagramConfigs = [
+        // Eymard Complex Diagrams
         {
             elementId: 'eymardGroundFloorDiagram',
             dataSource: typeof EymardGroundFloorData !== 'undefined' ? EymardGroundFloorData : { nodes: [], connectors: [] }
@@ -21,6 +22,31 @@ function initializeDiagrams() {
         {
             elementId: 'eymardThirdFloorDiagram',
             dataSource: typeof EymardThirdFloorData !== 'undefined' ? EymardThirdFloorData : { nodes: [], connectors: [] }
+        },
+        // Mathura Complex Diagrams
+        {
+            elementId: 'mathuraGroundFloorDiagram',
+            dataSource: typeof MathuraGroundFloorData !== 'undefined' ? MathuraGroundFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'mathuraFirstFloorDiagram',
+            dataSource: typeof MathuraFirstFloorData !== 'undefined' ? MathuraFirstFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'mathuraSecondFloorDiagram',
+            dataSource: typeof MathuraSecondFloorData !== 'undefined' ? MathuraSecondFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'mathuraThirdFloorDiagram',
+            dataSource: typeof MathuraThirdFloorData !== 'undefined' ? MathuraThirdFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'mathuraFourthFloorDiagram',
+            dataSource: typeof MathuraFourthFloorData !== 'undefined' ? MathuraFourthFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'mathuraFifthFloorDiagram',
+            dataSource: typeof MathuraFifthFloorData !== 'undefined' ? MathuraFifthFloorData : { nodes: [], connectors: [] }
         }
     ];
 
