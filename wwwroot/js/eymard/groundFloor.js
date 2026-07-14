@@ -2478,7 +2478,7 @@ const EymardGroundFloorData = {
         x: 806,
         y: 622.5
       },
-      zIndex: 64,
+      zIndex: 74,
       targetDecorator: {
         shape: "None",
         width: 10,

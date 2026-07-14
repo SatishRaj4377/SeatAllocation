@@ -2702,7 +2702,7 @@ const EymardThirdFloorData = {
         x: 820,
         y: 530
       },
-      zIndex: 40,
+      zIndex: 80,
       targetDecorator: {
         shape: "None",
         width: 10,
