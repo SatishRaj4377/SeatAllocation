@@ -1,19 +1,33 @@
 /**
  *  Diagram Initialization
  */
-document.addEventListener('DOMContentLoaded', function () {
-    setTimeout(function () {
-        // Initialize Palette
-        var paletteObj = new Palettes();
-        var symbolPaletteElement = document.getElementById('symbolpalette');
-        
-        if (symbolPaletteElement && symbolPaletteElement.ej2_instances && symbolPaletteElement.ej2_instances[0]) {
-            var palette = symbolPaletteElement.ej2_instances[0];
-            palette.palettes = paletteObj.getSymbolPalette();
-        }
 
-        // Initialize Diagram with nodes and connectors
-        var diagramElement = document.getElementById('diagram');
+// Function to initialize diagrams with their floor data
+function initializeDiagrams() {
+    // Define diagram configurations with their respective data sources
+    var diagramConfigs = [
+        {
+            elementId: 'eymardGroundFloorDiagram',
+            dataSource: typeof EymardGroundFloorData !== 'undefined' ? EymardGroundFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'eymardFirstFloorDiagram',
+            dataSource: typeof EymardFirstFloorData !== 'undefined' ? EymardFirstFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'eymardSecondFloorDiagram',
+            dataSource: typeof EymardSecondFloorData !== 'undefined' ? EymardSecondFloorData : { nodes: [], connectors: [] }
+        },
+        {
+            elementId: 'eymardThirdFloorDiagram',
+            dataSource: typeof EymardThirdFloorData !== 'undefined' ? EymardThirdFloorData : { nodes: [], connectors: [] }
+        }
+    ];
+
+    // Initialize each diagram
+    diagramConfigs.forEach(function (config) {
+        var diagramElement = document.getElementById(config.elementId);
+        
         if (diagramElement && diagramElement.ej2_instances && diagramElement.ej2_instances[0]) {
             var diagram = diagramElement.ej2_instances[0];
             
@@ -45,14 +59,29 @@ document.addEventListener('DOMContentLoaded', function () {
                 return connector;
             };
             
-            // Load nodes and connectors from diagram data using diagram.add method
-            if (DiagramData && DiagramData.nodes && DiagramData.connectors) {
+            // Load nodes and connectors from the respective floor data
+            if (config.dataSource && config.dataSource.nodes && config.dataSource.connectors) {
                 // Add all nodes
-                diagram.addElements(DiagramData.nodes);
+                if (config.dataSource.nodes.length > 0) {
+                    diagram.addElements(config.dataSource.nodes);
+                }
                 
                 // Add all connectors
-                diagram.addElements(DiagramData.connectors);
+                if (config.dataSource.connectors.length > 0) {
+                    diagram.addElements(config.dataSource.connectors);
+                }
             }
+
+            diagram.fitToPage();
         }
-    }, 500);
-});
+    });
+}
+
+// Listen for DOMContentLoaded and also try after a delay
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(initializeDiagrams, 500);
+    });
+} else {
+    setTimeout(initializeDiagrams, 500);
+}
