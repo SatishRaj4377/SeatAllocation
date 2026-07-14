@@ -77,8 +77,20 @@ const EymardGroundFloorData = {
       offsetY: 680,
       width: 40,
       height: 40,
-      rotateAngle: 180,
       zIndex: -9,
+      shape: {
+        type: "Path",
+        data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
+      },
+      addInfo: "Door close"
+    },
+    {
+      id: "DoorcloseXsdf",
+      offsetX: 940,
+      offsetY: 1300,
+      width: 40,
+      height: 40,
+      zIndex: 3,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -133,7 +145,6 @@ const EymardGroundFloorData = {
       offsetY: 680,
       width: 40,
       height: 40,
-      rotateAngle: 180,
       zIndex: -5,
       shape: {
         type: "Path",

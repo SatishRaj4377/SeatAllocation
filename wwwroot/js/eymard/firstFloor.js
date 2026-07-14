@@ -77,7 +77,6 @@ const EymardFirstFloorData = {
       offsetY: 680,
       width: 40,
       height: 40,
-      rotateAngle: 180,
       zIndex: -1,
       shape: {
         type: "Path",
@@ -133,7 +132,6 @@ const EymardFirstFloorData = {
       offsetY: 680,
       width: 40,
       height: 40,
-      rotateAngle: 180,
       zIndex: 3,
       shape: {
         type: "Path",
