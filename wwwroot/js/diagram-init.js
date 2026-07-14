@@ -31,6 +31,11 @@ function initializeDiagrams() {
         if (diagramElement && diagramElement.ej2_instances && diagramElement.ej2_instances[0]) {
             var diagram = diagramElement.ej2_instances[0];
             
+            // Hide gridlines - configure snap settings
+            diagram.snapSettings = {
+                gridType: 'Dots',
+            };
+            
             // Set node default styles
             diagram.getNodeDefaults = function (node) {
                 if (!node.style) {
@@ -38,7 +43,10 @@ function initializeDiagrams() {
                 }
                 node.style.fill = node.style.fill || 'white';
                 node.style.strokeColor = node.style.strokeColor || 'black';
-                node.style.strokeWidth = node.style.strokeWidth || 1;
+                node.style.strokeWidth = 2;
+                if (node.annotations && node.annotations[0]){
+                    node.annotations[0].style.fontSize = 18;
+                }
                 return node;
             };
             
@@ -48,7 +56,7 @@ function initializeDiagrams() {
                     connector.style = {};
                 }
                 connector.style.strokeColor = connector.style.strokeColor || 'black';
-                connector.style.strokeWidth = connector.style.strokeWidth || 2;
+                connector.style.strokeWidth = 2;
                 
                 if (!connector.targetDecorator) {
                     connector.targetDecorator = { shape: 'None' };
@@ -77,11 +85,7 @@ function initializeDiagrams() {
     });
 }
 
-// Listen for DOMContentLoaded and also try after a delay
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(initializeDiagrams, 500);
-    });
-} else {
-    setTimeout(initializeDiagrams, 500);
-}
+
+document.addEventListener('DOMContentLoaded', function () {
+    initializeDiagrams();
+});

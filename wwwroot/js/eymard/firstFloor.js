@@ -902,7 +902,7 @@ const EymardFirstFloorData = {
       width: 60,
       height: 77.8,
       rotateAngle: 0,
-      zIndex: 23,
+      zIndex: 123,
       shape: {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
@@ -986,7 +986,7 @@ const EymardFirstFloorData = {
       width: 48,
       height: 53,
       rotateAngle: 90,
-      zIndex: 145,
+      zIndex: 15,
       shape: {
         type: "Path",
         data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
@@ -1000,7 +1000,7 @@ const EymardFirstFloorData = {
       width: 48,
       height: 53,
       rotateAngle: 90,
-      zIndex: 147,
+      zIndex: 17,
       shape: {
         type: "Path",
         data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
@@ -1014,7 +1014,7 @@ const EymardFirstFloorData = {
       width: 48,
       height: 53,
       rotateAngle: 90,
-      zIndex: 149,
+      zIndex: 10,
       shape: {
         type: "Path",
         data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
@@ -1028,7 +1028,7 @@ const EymardFirstFloorData = {
       width: 48,
       height: 53,
       rotateAngle: 90,
-      zIndex: 151,
+      zIndex: 10,
       shape: {
         type: "Path",
         data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
@@ -2920,160 +2920,6 @@ const EymardFirstFloorData = {
       },
       style: {
         strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
-    },
-    {
-      id: "ConnectorStroke1ohQod",
-      type: "Straight",
-      sourcePoint: {
-        x: 120,
-        y: 439.96
-      },
-      targetPoint: {
-        x: 240,
-        y: 520
-      },
-      zIndex: 160,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 1,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
-    },
-    {
-      id: "ConnectorStroke1ohQodqlis8",
-      type: "Straight",
-      sourcePoint: {
-        x: 240,
-        y: 440
-      },
-      targetPoint: {
-        x: 120,
-        y: 520
-      },
-      zIndex: 161,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 1,
         strokeColor: "black",
         fill: "transparent",
         strokeDashArray: "",
