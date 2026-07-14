@@ -86,7 +86,7 @@ function initializeDiagrams() {
                     left: 50,
                     right: 50,
                     top: 50,
-                    bottom: 150
+                    bottom: 50
                 }
             });
         }
