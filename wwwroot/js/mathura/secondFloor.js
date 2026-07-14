@@ -4824,10 +4824,10 @@ const MathuraSecondFloorData = {
     },
     {
       id: "DoubledoorcloseTUATT",
-      offsetX: 550.7950000003095,
+      offsetX: 539.19,
       offsetY: 1153.359999999998,
-      width: 80.23000000000005,
-      height: 40,
+      width: 109,
+      height: 63.36,
       rotateAngle: 270,
       flip: 0,
       flipMode: "All",

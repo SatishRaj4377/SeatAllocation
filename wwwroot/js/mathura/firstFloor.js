@@ -4866,10 +4866,10 @@ const MathuraFirstFloorData = {
     },
     {
       id: "DoubledoorcloseTUATT",
-      offsetX: 550.7950000003095,
+      offsetX: 539.19,
       offsetY: 1153.359999999998,
-      width: 80.23000000000005,
-      height: 40,
+      width: 109,
+      height: 63.36,
       rotateAngle: 270,
       flip: 0,
       flipMode: "All",
@@ -4879,7 +4879,7 @@ const MathuraFirstFloorData = {
         data: "M143 71V79L1 79L1 71M143 71L1 71M143 71V1H142C103.34 1 72 32.3401 72 71M143 71H72M1 71L1 1H2C40.6599 1 72 32.3401 72 71M1 71L72 71M72 78.5V71"
       },
       addInfo: "Double Door Close"
-    }
+    },
   ],
   connectors: [
     {
