@@ -715,7 +715,7 @@ const EymardGroundFloorData = {
     {
       id: "DoorcloseU0uXC",
       offsetX: 300,
-      offsetY: 20.999999999999993,
+      offsetY: 19,
       width: 40,
       height: 40,
       rotateAngle: 270,
