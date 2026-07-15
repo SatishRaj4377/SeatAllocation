@@ -102,7 +102,8 @@ function initializeDiagrams() {
                     const isDoor =
                         typeof node.addInfo === 'string' &&
                         node.addInfo.toLowerCase().includes('door') &&
-                        !node.addInfo.toLowerCase().includes('overlay');
+                        !node.addInfo.toLowerCase().includes('overlay') && 
+                        !node.addInfo.toLowerCase().includes('double');
 
                     if (isDoor) {
                         doorNodes.push(node);
