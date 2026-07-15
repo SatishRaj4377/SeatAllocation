@@ -7,7 +7,7 @@ const EymardFirstFloorData = {
       offsetY: 160,
       width: 40,
       height: 40,
-      rotateAngle: 0,
+      rotateAngle: 90,
       zIndex: -8,
       shape: {
         type: "Path",
