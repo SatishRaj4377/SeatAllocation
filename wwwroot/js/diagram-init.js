@@ -2,26 +2,100 @@
  *  Diagram Initialization
  */
 
+// Selection state management - per diagram
+const diagramStates = new Map();
+
+// Helper function to check if addInfo represents a chair
+// Handles both formats: string "Chair" and object {type: "Chair", reserved: false}
+function isChairNode(addInfo) {
+    if (typeof addInfo === 'string') {
+        return addInfo.toLowerCase().includes('chair');
+    } else if (addInfo && typeof addInfo === 'object' && addInfo.type) {
+        return addInfo.type === 'Chair' || addInfo.type === 'chair';
+    }
+    return false;
+}
+
+// Helper function to check if a chair is reserved
+function isChairReserved(addInfo) {
+    if (typeof addInfo === 'object' && addInfo.reserved !== undefined) {
+        return addInfo.reserved === true;
+    }
+    // Legacy format support - no reserved property
+    return false;
+}
+
+// Helper function to mark a chair as reserved
+function setChairReserved(addInfo, reserved) {
+    if (typeof addInfo === 'object') {
+        addInfo.reserved = reserved;
+    }
+}
+
+// Helper function to get floor display name from diagram element ID
+function getFloorDisplayName(elementId) {
+    if (elementId.includes('Ground')) return 'Ground Floor';
+    if (elementId.includes('First')) return '1st Floor';
+    if (elementId.includes('Second')) return '2nd Floor';
+    if (elementId.includes('Third')) return '3rd Floor';
+    if (elementId.includes('Fourth')) return '4th Floor';
+    if (elementId.includes('Fifth')) return '5th Floor';
+    return 'Floor N/A';
+}
+
+function getOrCreateDiagramState(diagramElement, elementId) {
+    if (!diagramStates.has(diagramElement)) {
+        diagramStates.set(diagramElement, {
+            selectedChairs: [],
+            diagram: null,
+            floorName: getFloorDisplayName(elementId || '')
+        });
+    }
+    return diagramStates.get(diagramElement);
+}
+
+function toggleChairSelection(diagramElement, nodeId) {
+    const state = getOrCreateDiagramState(diagramElement);
+    const idx = state.selectedChairs.indexOf(nodeId);
+    if (idx > -1) {
+        state.selectedChairs.splice(idx, 1);
+    } else {
+        state.selectedChairs.push(nodeId);
+    }
+    return idx === -1;
+}
+
+function isChairSelected(diagramElement, nodeId) {
+    const state = getOrCreateDiagramState(diagramElement);
+    return state.selectedChairs.includes(nodeId);
+}
+
+function clearSelection(diagramElement) {
+    const state = getOrCreateDiagramState(diagramElement);
+    state.selectedChairs = [];
+}
+
+function getSelectedChairs(diagramElement) {
+    const state = getOrCreateDiagramState(diagramElement);
+    return state.selectedChairs;
+}
+
 // Tooltip template function for chair seats
-function seatTooltipTemplate(node) {
+function seatTooltipTemplate(node, diagramElement) {
     const seatNumber = node.annotations && node.annotations[0] ? node.annotations[0].content : "N/A";
-    const floorNumber = 2; // Static floor number for this diagram
-    const isBooked = node.addInfo && node.addInfo.Booked ? true : false;
-    const status = isBooked ? "Booked" : "Available";
-    const statusBg = isBooked ? "#6c757d" : "#17a2b8";
+    const state = getOrCreateDiagramState(diagramElement);
+    const floorName = state.floorName || 'Floor N/A';
+    const isReserved = isChairReserved(node.addInfo);
+    const isSelected = isChairSelected(diagramElement, node.id);
+    const status = isReserved ? "Reserved" : isSelected ? "Selected" : "Available";
+    const statusBg = isReserved ? "#6c757d" : isSelected ? "#22c55e" : "#17a2b8";
 
     return `
       <div style="margin:0;padding:10px;font-family:Arial,sans-serif;min-width:150px;">
-        <div style="font-weight:bold;margin-bottom:5px;font-size:14px;">
-          Seat ${seatNumber}
-        </div>
-        <div style="font-size:12px;margin-bottom:3px;">
-          <strong>Floor No:</strong> ${floorNumber}
-        </div>
+        <div style="font-weight:bold;margin-bottom:5px;font-size:14px;">Seat ${seatNumber}</div>
+        <div style="font-size:12px;margin-bottom:3px;"><strong>Floor:</strong> ${floorName}</div>
         <div style="font-size:12px;margin-top:5px;">
-          <span style="padding:2px 6px;border-radius:3px;font-weight:bold;background-color:${statusBg};color:white;font-size:11px;">
-            ${status}
-          </span>
+          <span style="padding:2px 6px;border-radius:3px;font-weight:bold;background-color:${statusBg};color:white;font-size:11px;">${status}</span>
         </div>
       </div>
     `;
@@ -82,17 +156,34 @@ function initializeDiagrams() {
         if (diagramElement && diagramElement.ej2_instances && diagramElement.ej2_instances[0]) {
             var diagram = diagramElement.ej2_instances[0];
 
+            // Store diagram reference and floor name in state
+            const state = getOrCreateDiagramState(diagramElement, config.elementId);
+            state.diagram = diagram;
+
             // Define the tool
             diagram.tool = ej.diagrams.DiagramTools.ZoomPan | ej.diagrams.DiagramTools.SingleSelect;
+            
+            // Chair click handler
+            diagram.click = function(args) {
+                const node = args.element;
+                if (node && node instanceof ej.diagrams.Node && isChairNode(node.addInfo)) {
+                    // Prevent interaction with reserved chairs
+                    if (isChairReserved(node.addInfo)) {
+                        return;
+                    }
+                    
+                    toggleChairSelection(diagramElement, node.id);
+                    updateChairStyle(node, diagramElement);
+                    updateReserveButton(diagramElement);
+                }
+            };
             
             // Set node default styles
             diagram.getNodeDefaults = function (node) {
                 if (!node.style) {
                     node.style = {};
                 }
-                const isChair =
-                    typeof node.addInfo === 'string' &&
-                    node.addInfo.toLowerCase().includes('chair');
+                const isChair = isChairNode(node.addInfo);
                 const isDoorOverlay =
                     typeof node.addInfo === 'string' &&
                     node.addInfo.toLowerCase().includes('overlay');
@@ -114,7 +205,7 @@ function initializeDiagrams() {
                 
                 // Add tooltip only for chair nodes
                 if (isChair) {
-                    node.tooltip = { content: seatTooltipTemplate(node) };
+                    node.tooltip = { content: seatTooltipTemplate(node, diagramElement) };
                 }
                 
                 return node;
@@ -200,9 +291,93 @@ function initializeDiagrams() {
     });
 }
 
+// Update chair visual style
+function updateChairStyle(node, diagramElement) {
+    // Don't update style if chair is reserved
+    if (isChairReserved(node.addInfo)) {
+        return;
+    }
+    
+    if (isChairSelected(diagramElement, node.id)) {
+        node.style.fill = '#86efac';  // Light green
+        node.style.strokeColor = '#22c55e';  // Green border
+    } else {
+        node.style.fill = 'white';
+        node.style.strokeColor = 'black';
+    }
+    if (node.annotations && node.annotations[0]) {
+        node.annotations[0].style.color = isChairSelected(diagramElement, node.id) ? '#166534' : '#000000';
+    }
+    node.tooltip = { content: seatTooltipTemplate(node, diagramElement) };
+    const state = getOrCreateDiagramState(diagramElement);
+    state.diagram.dataBind();
+}
+
+// Update reserve button visibility
+function updateReserveButton(diagramElement) {
+    const btn = document.getElementById('reserveBtn');
+    if (btn) {
+        const selectedCount = getSelectedChairs(diagramElement).length;
+        btn.style.display = selectedCount > 0 ? 'block' : 'none';
+        btn.onclick = function() { reserveChairs(diagramElement); };
+    }
+}
+
+// Reserve selected chairs
+function reserveChairs(diagramElement) {
+    const state = getOrCreateDiagramState(diagramElement);
+    const selectedChairs = getSelectedChairs(diagramElement);
+    
+    selectedChairs.forEach(chairId => {
+        const node = state.diagram.getObject(chairId);
+        if (node && isChairNode(node.addInfo)) {
+            // Mark chair as reserved in addInfo
+            setChairReserved(node.addInfo, true);
+            node.style.fill = '#d1d5db';  // Gray
+            node.style.strokeColor = '#9ca3af';
+            if (node.annotations && node.annotations[0]) {
+                node.annotations[0].style.color = '#6b7280';
+            }
+            node.tooltip = { content: seatTooltipTemplate(node, diagramElement) };
+        }
+    });
+    
+    clearSelection(diagramElement);
+    state.diagram.dataBind();
+    updateReserveButton(diagramElement);
+}
 
 document.addEventListener('DOMContentLoaded', function () {
     initializeDiagrams();
+    
+    // Create floating reserve button (single button for all diagrams)
+    const btn = document.createElement('button');
+    btn.id = 'reserveBtn';
+    btn.textContent = 'Reserve Selected';
+    btn.style.cssText = `
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        padding: 12px 20px;
+        background: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+    `;
+    document.body.appendChild(btn);
+    
+    // Add hover effect
+    btn.addEventListener('mouseenter', function() {
+        this.style.background = '#2563eb';
+    });
+    btn.addEventListener('mouseleave', function() {
+        this.style.background = '#3b82f6';
+    });
 });
 
 const OVERLAY_X_OFFSET = 20;
