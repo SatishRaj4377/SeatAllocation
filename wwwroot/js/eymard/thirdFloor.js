@@ -1511,44 +1511,6 @@ const EymardThirdFloorData = {
       targetPoint: {
         x: 100,
         y: 1480
-      },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
-      zIndex: 7,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
       }
     },
     {
@@ -1562,44 +1524,7 @@ const EymardThirdFloorData = {
         x: 960,
         y: 0
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 8,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2vEBd1",
@@ -1612,44 +1537,7 @@ const EymardThirdFloorData = {
         x: 540,
         y: 180
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 9,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2JhF6q",
@@ -1662,44 +1550,7 @@ const EymardThirdFloorData = {
         x: 540,
         y: 180
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 10,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2XLy4M",
@@ -1712,44 +1563,7 @@ const EymardThirdFloorData = {
         x: 960,
         y: 160
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 11,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2PM9Kw",
@@ -1762,44 +1576,7 @@ const EymardThirdFloorData = {
         x: 780,
         y: 160
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 12,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2Hxm01",
@@ -1812,44 +1589,7 @@ const EymardThirdFloorData = {
         x: 960,
         y: 1480
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 13,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2V4vTk",
@@ -1862,44 +1602,7 @@ const EymardThirdFloorData = {
         x: 300,
         y: 300
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 14,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2KT65B",
@@ -1912,44 +1615,7 @@ const EymardThirdFloorData = {
         x: 520,
         y: 300
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 15,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2aRhkE",
@@ -1962,44 +1628,7 @@ const EymardThirdFloorData = {
         x: 520,
         y: 620
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 16,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2GIQ7y",
@@ -2012,44 +1641,7 @@ const EymardThirdFloorData = {
         x: 100,
         y: 620
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 17,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2n4704",
@@ -2062,44 +1654,7 @@ const EymardThirdFloorData = {
         x: 220,
         y: 620
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 20,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2tK4Jk",
@@ -2112,44 +1667,7 @@ const EymardThirdFloorData = {
         x: 340,
         y: 760
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 21,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2tK4JkuNH7P",
@@ -2162,44 +1680,7 @@ const EymardThirdFloorData = {
         x: 340,
         y: 900
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 22,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2n4704vP9wk",
@@ -2212,44 +1693,7 @@ const EymardThirdFloorData = {
         x: 340,
         y: 620
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 23,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2D7Qdh",
@@ -2262,44 +1706,7 @@ const EymardThirdFloorData = {
         x: 960,
         y: 1480
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 147,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2JhF6qDvPJt",
@@ -2312,43 +1719,9 @@ const EymardThirdFloorData = {
         x: 820,
         y: 530
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 81,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -2362,43 +1735,8 @@ const EymardThirdFloorData = {
         x: 820,
         y: 894
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
-      zIndex: 64,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -2412,43 +1750,9 @@ const EymardThirdFloorData = {
         x: 383,
         y: 1060
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 92,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     }
   ]
