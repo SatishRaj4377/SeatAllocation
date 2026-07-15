@@ -57,11 +57,6 @@ function initializeDiagrams() {
         if (diagramElement && diagramElement.ej2_instances && diagramElement.ej2_instances[0]) {
             var diagram = diagramElement.ej2_instances[0];
             
-            // Hide gridlines - configure snap settings
-            diagram.snapSettings = {
-                gridType: 'Dots',
-            };
-            
             // Set node default styles
             diagram.getNodeDefaults = function (node) {
                 if (!node.style) {
