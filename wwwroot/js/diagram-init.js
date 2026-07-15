@@ -56,6 +56,9 @@ function initializeDiagrams() {
         
         if (diagramElement && diagramElement.ej2_instances && diagramElement.ej2_instances[0]) {
             var diagram = diagramElement.ej2_instances[0];
+
+            // Define the tool
+            diagram.tool = ej.diagrams.DiagramTools.ZoomPan | ej.diagrams.DiagramTools.SingleSelect;
             
             // Set node default styles
             diagram.getNodeDefaults = function (node) {
