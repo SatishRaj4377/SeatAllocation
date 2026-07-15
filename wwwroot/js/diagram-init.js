@@ -70,6 +70,7 @@ function initializeDiagrams() {
                 node.style.fill = node.style.fill || 'white';
                 node.style.strokeColor = node.style.strokeColor || 'black';
                 node.style.strokeWidth = 2;
+                node.constraints= (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.Tooltip | ej.diagrams.NodeConstraints.ReadOnly) & ~ej.diagrams.NodeConstraints.Select;
                 if (node.annotations && node.annotations[0]){
                     node.annotations[0].style.fontSize = 18;
                 }
@@ -81,6 +82,7 @@ function initializeDiagrams() {
                 if (!connector.style) {
                     connector.style = {};
                 }
+                connector.constraints= (ej.diagrams.ConnectorConstraints.Default | ej.diagrams.ConnectorConstraints.ReadOnly) & ~ej.diagrams.ConnectorConstraints.Select;
                 connector.style.strokeColor = connector.style.strokeColor || 'black';
                 connector.style.strokeWidth = 2;
                 
@@ -109,10 +111,10 @@ function initializeDiagrams() {
             diagram.fitToPage({
                 region: 'Content',
                 margin: {
-                    left: 50,
-                    right: 50,
-                    top: 50,
-                    bottom: 50
+                    left: 20,
+                    right: 20,
+                    top: 20,
+                    bottom: 20
                 }
             });
         }
