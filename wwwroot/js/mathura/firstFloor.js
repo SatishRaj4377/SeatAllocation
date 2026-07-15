@@ -318,9 +318,9 @@ const MathuraFirstFloorData = {
     },
     {
       id: "RoommxeRn",
-      offsetX: 1017.6100000000001,
+      offsetX: 1005.6100000000001,
       offsetY: 203,
-      width: 140,
+      width: 180,
       height: 40,
       rotateAngle: 0,
       flip: 0,
@@ -2531,9 +2531,9 @@ const MathuraFirstFloorData = {
     },
     {
       id: "RoommxeRnbkwl2",
-      offsetX: 1017.6050000000134,
+      offsetX: 1005.6050000000134,
       offsetY: 1560.501874999999,
-      width: 140,
+      width: 180,
       height: 40,
       rotateAngle: 0,
       flip: 0,
@@ -4450,7 +4450,7 @@ const MathuraFirstFloorData = {
       addInfo: "Room",
       annotations: [
         {
-          content: "DISCUSSION ROOM"
+          content: "DISCUSSION\n ROOM"
         }
       ]
     },
@@ -4470,7 +4470,7 @@ const MathuraFirstFloorData = {
       addInfo: "Room",
       annotations: [
         {
-          content: "DISCUSSION ROOM"
+          content: "DISCUSSION \nROOM"
         }
       ]
     },

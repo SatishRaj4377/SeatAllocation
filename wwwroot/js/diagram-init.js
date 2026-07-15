@@ -74,7 +74,8 @@ function initializeDiagrams() {
                 node.style.strokeWidth = isDoorOverlay ? 0 : 2;
                 node.constraints= (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.Tooltip | ej.diagrams.NodeConstraints.ReadOnly) & ~ej.diagrams.NodeConstraints.Select;
                 if (node.annotations && node.annotations[0]){
-                    node.annotations[0].style.fontSize = 18;
+                    node.annotations[0].style.fontSize = 22;
+                    node.annotations[0].style.bold = true;
                 }
                 return node;
             };

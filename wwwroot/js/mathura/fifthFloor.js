@@ -1906,7 +1906,7 @@ const MathuraFifthFloorData = {
       addInfo: "Room",
       annotations: [
         {
-          content: "DISCUSSION ROOM"
+          content: "DISCUSSION \nROOM"
         }
       ]
     },
