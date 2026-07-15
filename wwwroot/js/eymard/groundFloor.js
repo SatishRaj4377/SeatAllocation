@@ -1273,70 +1273,6 @@ const EymardGroundFloorData = {
         y: 1240
       },
       zIndex: -1,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2EZM4q",
@@ -1350,70 +1286,6 @@ const EymardGroundFloorData = {
         y: 0
       },
       zIndex: 0,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2vEBd1",
@@ -1427,70 +1299,6 @@ const EymardGroundFloorData = {
         y: 180
       },
       zIndex: 1,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2JhF6q",
@@ -1504,70 +1312,6 @@ const EymardGroundFloorData = {
         y: 180
       },
       zIndex: 2,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2PM9Kw",
@@ -1581,70 +1325,6 @@ const EymardGroundFloorData = {
         y: 180
       },
       zIndex: 3,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2Hxm01",
@@ -1658,70 +1338,6 @@ const EymardGroundFloorData = {
         y: 1400
       },
       zIndex: 4,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2aRhkE",
@@ -1735,70 +1351,6 @@ const EymardGroundFloorData = {
         y: 620
       },
       zIndex: 11,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2GIQ7y",
@@ -1812,70 +1364,6 @@ const EymardGroundFloorData = {
         y: 620
       },
       zIndex: 12,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2n4704",
@@ -1889,70 +1377,6 @@ const EymardGroundFloorData = {
         y: 620
       },
       zIndex: 19,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2tK4Jk",
@@ -1966,70 +1390,6 @@ const EymardGroundFloorData = {
         y: 760
       },
       zIndex: 20,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2tK4JkuNH7P",
@@ -2043,70 +1403,6 @@ const EymardGroundFloorData = {
         y: 900
       },
       zIndex: 21,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2n4704vP9wk",
@@ -2120,70 +1416,6 @@ const EymardGroundFloorData = {
         y: 620
       },
       zIndex: 22,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2D7Qdh",
@@ -2197,70 +1429,6 @@ const EymardGroundFloorData = {
         y: 1240
       },
       zIndex: 142,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2GIQ7yroxfD",
@@ -2274,70 +1442,6 @@ const EymardGroundFloorData = {
         y: 350
       },
       zIndex: 105,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2PM9KwDOcyI",
@@ -2351,70 +1455,6 @@ const EymardGroundFloorData = {
         y: 1400
       },
       zIndex: 115,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2PM9KwDOcyIT4iEi",
@@ -2428,70 +1468,6 @@ const EymardGroundFloorData = {
         y: 1400
       },
       zIndex: 116,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
     },
     {
       id: "ConnectorStroke2PM9KwpqDvM",
@@ -2505,70 +1481,10 @@ const EymardGroundFloorData = {
         y: 622.5
       },
       zIndex: 74,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
       style: {
         strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
+        strokeColor: "black"
+      }
     },
     {
       id: "ConnectorStroke2PM9KwpqDvMwGg3W",
@@ -2582,70 +1498,10 @@ const EymardGroundFloorData = {
         y: 790
       },
       zIndex: 81,
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        },
-        style: {
-          fill: "black",
-          strokeColor: "black",
-          strokeWidth: 1,
-          strokeDashArray: "",
-          opacity: 1,
-          gradient: {
-            type: "None"
-          }
-        }
-      },
       style: {
         strokeWidth: 2,
-        strokeColor: "black",
-        fill: "transparent",
-        strokeDashArray: "",
-        opacity: 1,
-        gradient: {
-          type: "None"
-        }
-      },
-      shape: {
-        type: "None"
-      },
-      targetID: "",
-      sourceID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ]
+        strokeColor: "black"
+      }
     }
   ]
 };
