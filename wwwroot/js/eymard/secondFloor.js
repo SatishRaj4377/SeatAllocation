@@ -181,51 +181,7 @@ const EymardSecondFloorData = {
       },
       annotations: [
         {
-          id: "mrAQy",
           content: "UPS",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          },
-          tooltip: {
-            content: ""
-          }
         }
       ],
       addInfo: "Room"
@@ -244,48 +200,7 @@ const EymardSecondFloorData = {
       },
       annotations: [
         {
-          id: "H1Wos",
           content: "LIFT",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
         }
       ],
       addInfo: "Room"
@@ -1030,52 +945,6 @@ const EymardSecondFloorData = {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
       },
-      annotations: [
-        {
-          id: "TJOPw",
-          content: "",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
-        }
-      ],
       addInfo: "Room"
     },
     {
@@ -1090,52 +959,6 @@ const EymardSecondFloorData = {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
       },
-      annotations: [
-        {
-          id: "TJOPw",
-          content: "",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
-        }
-      ],
       addInfo: "Room"
     },
     {
@@ -1150,52 +973,6 @@ const EymardSecondFloorData = {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
       },
-      annotations: [
-        {
-          id: "TJOPw",
-          content: "",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
-        }
-      ],
       addInfo: "Room"
     },
     {
@@ -1210,52 +987,6 @@ const EymardSecondFloorData = {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
       },
-      annotations: [
-        {
-          id: "TJOPw",
-          content: "",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
-        }
-      ],
       addInfo: "Room"
     },
     {
@@ -1270,52 +1001,6 @@ const EymardSecondFloorData = {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
       },
-      annotations: [
-        {
-          id: "TJOPw",
-          content: "",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
-        }
-      ],
       addInfo: "Room"
     },
     {
@@ -1330,52 +1015,6 @@ const EymardSecondFloorData = {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
       },
-      annotations: [
-        {
-          id: "TJOPw",
-          content: "",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
-        }
-      ],
       addInfo: "Room"
     },
     {
@@ -3640,52 +3279,6 @@ const EymardSecondFloorData = {
           }
         }
       ],
-      annotations: [
-        {
-          id: "sx7tG",
-          content: "",
-          annotationType: "String",
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            textDecoration: "None"
-          },
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            color: "black",
-            strokeDashArray: "",
-            opacity: 1,
-            gradient: {
-              type: "None"
-            },
-            fontSize: 12,
-            fontFamily: "Arial",
-            textOverflow: "Wrap",
-            textDecoration: "None",
-            whiteSpace: "CollapseSpace",
-            textWrapping: "WrapWithOverflow",
-            textAlign: "Center",
-            italic: false,
-            bold: false
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          margin: {
-            left: 0,
-            right: 0,
-            bottom: 0,
-            top: 0
-          },
-          offset: 0.5,
-          alignment: "Center",
-          segmentAngle: false
-        }
-      ]
     },
     {
       id: "ConnectorStroke2PM9KwThVZ3",

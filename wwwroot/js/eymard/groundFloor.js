@@ -744,14 +744,19 @@ const EymardGroundFloorData = {
       id: "RectangleStudyTablesqIkD",
       offsetX: 285,
       offsetY: 267.5,
-      width: 139.99999999999997,
-      height: 55.00000000000002,
+      width: 200,
+      height: 40,
       rotateAngle: 0,
       zIndex: 39,
       shape: {
         type: "Path",
         data: "M79 1H3C1.89543 1 1 1.89543 1 3V49C1 50.1046 1.89543 51 3 51H79C80.1046 51 81 50.1046 81 49V3C81 1.89543 80.1046 1 79 1Z"
       },
+      annotations: [
+        {
+          content: "SERVER ROOM",
+        }
+      ],
       addInfo: "Rectangle Study Table"
     },
     {
@@ -766,6 +771,11 @@ const EymardGroundFloorData = {
         type: "Path",
         data: "M79 1H3C1.89543 1 1 1.89543 1 3V49C1 50.1046 1.89543 51 3 51H79C80.1046 51 81 50.1046 81 49V3C81 1.89543 80.1046 1 79 1Z"
       },
+      annotations: [
+        {
+          content: "LIFT",
+        }
+      ],
       addInfo: "Rectangle Study Table"
     },
     {

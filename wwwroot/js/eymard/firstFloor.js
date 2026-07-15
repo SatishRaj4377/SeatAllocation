@@ -209,48 +209,7 @@ const EymardFirstFloorData = {
       },
       annotations: [
         {
-          id: "mrAQy",
           content: "UPS",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
         }
       ],
       addInfo: "Room"
@@ -604,51 +563,7 @@ const EymardFirstFloorData = {
       },
       annotations: [
         {
-          id: "EUmNm",
           content: "SERVER ROOM",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          },
-          tooltip: {
-            content: ""
-          }
         }
       ],
       addInfo: "Room"
@@ -849,48 +764,7 @@ const EymardFirstFloorData = {
       },
       annotations: [
         {
-          id: "H1Wos",
           content: "LIFT",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
         }
       ],
       addInfo: "Room"
@@ -1049,48 +923,7 @@ const EymardFirstFloorData = {
       },
       annotations: [
         {
-          id: "mrAQy",
           content: "UPS",
-          annotationType: "String",
-          style: {
-            strokeWidth: 0,
-            strokeColor: "transparent",
-            fill: "transparent",
-            bold: false,
-            textWrapping: "WrapWithOverflow",
-            color: "black",
-            whiteSpace: "CollapseSpace",
-            fontFamily: "Arial",
-            fontSize: 12,
-            italic: false,
-            opacity: 1,
-            strokeDashArray: "",
-            textAlign: "Center",
-            textOverflow: "Wrap",
-            textDecoration: "None"
-          },
-          hyperlink: {
-            link: "",
-            hyperlinkOpenState: "NewTab",
-            content: "",
-            textDecoration: "None"
-          },
-          constraints: 4,
-          visibility: true,
-          rotateAngle: 0,
-          rotationReference: "Parent",
-          margin: {
-            right: 0,
-            left: 0,
-            bottom: 0,
-            top: 0
-          },
-          horizontalAlignment: "Center",
-          verticalAlignment: "Center",
-          offset: {
-            x: 0.5,
-            y: 0.5
-          }
         }
       ],
       addInfo: "Room"
