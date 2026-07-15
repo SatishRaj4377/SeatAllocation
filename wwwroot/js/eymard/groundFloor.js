@@ -815,7 +815,7 @@ const EymardGroundFloorData = {
       offsetX: 285,
       offsetY: 267.5,
       width: 200,
-      height: 40,
+      height: 90,
       rotateAngle: 0,
       zIndex: 39,
       shape: {
@@ -824,7 +824,7 @@ const EymardGroundFloorData = {
       },
       annotations: [
         {
-          content: "SERVER ROOM",
+          content: "DISCUSSION ROOM",
         }
       ],
       addInfo: "Rectangle Study Table"
