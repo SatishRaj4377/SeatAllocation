@@ -205,7 +205,7 @@ function initializeDiagrams() {
                 
                 // Add tooltip only for chair nodes
                 if (isChair) {
-                    node.tooltip = { content: seatTooltipTemplate(node, diagramElement), relativeMode: 'Object' };
+                    // node.tooltip = { content: seatTooltipTemplate(node, diagramElement), relativeMode: 'Object' };
                 }
                 
                 return node;
