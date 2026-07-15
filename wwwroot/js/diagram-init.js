@@ -191,7 +191,7 @@ function initializeDiagrams() {
                 node.style.fill = node.style.fill || 'white';
                 node.style.strokeColor = node.style.strokeColor || 'black';
                 node.style.strokeWidth = isDoorOverlay ? 0 : 2;
-                node.constraints= (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.Tooltip | ej.diagrams.NodeConstraints.ReadOnly) & ~ej.diagrams.NodeConstraints.Select;
+                node.constraints= (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.ReadOnly) & ~ej.diagrams.NodeConstraints.Select;
                 if (node.annotations && node.annotations[0]){
                     if (isChair) {
                         node.annotations[0].margin = {
