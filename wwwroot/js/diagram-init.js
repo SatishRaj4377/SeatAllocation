@@ -65,6 +65,9 @@ function initializeDiagrams() {
                 if (!node.style) {
                     node.style = {};
                 }
+                const isChair =
+                    typeof node.addInfo === 'string' &&
+                    node.addInfo.toLowerCase().includes('chair');
                 const isDoorOverlay =
                     typeof node.addInfo === 'string' &&
                     node.addInfo.toLowerCase().includes('overlay');
@@ -74,6 +77,12 @@ function initializeDiagrams() {
                 node.style.strokeWidth = isDoorOverlay ? 0 : 2;
                 node.constraints= (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.Tooltip | ej.diagrams.NodeConstraints.ReadOnly) & ~ej.diagrams.NodeConstraints.Select;
                 if (node.annotations && node.annotations[0]){
+                    if (isChair) {
+                        node.annotations[0].margin = {
+                            top: 5
+                        };
+                    }
+
                     node.annotations[0].style.fontSize = 22;
                     node.annotations[0].style.bold = true;
                 }
