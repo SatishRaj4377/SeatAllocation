@@ -3,13 +3,12 @@ const MathuraFirstFloorData = {
   nodes: [
     {
       id: "DoorcloseLGolk",
-      offsetX: 600,
+      offsetX: 590,
       offsetY: 30,
-      width: 60,
-      height: 60,
+      width: 40,
+      height: 40,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 44,
       shape: {
         type: "Path",
@@ -25,7 +24,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 50,
       shape: {
         type: "Path",
@@ -41,7 +39,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 51,
       shape: {
         type: "Path",
@@ -57,7 +54,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 52,
       shape: {
         type: "Path",
@@ -73,7 +69,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 53,
       shape: {
         type: "Path",
@@ -89,7 +84,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 60,
       shape: {
         type: "Path",
@@ -105,7 +99,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 66,
       shape: {
         type: "Path",
@@ -121,7 +114,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 67,
       shape: {
         type: "Path",
@@ -137,7 +129,6 @@ const MathuraFirstFloorData = {
       height: 88.46184996916045,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 68,
       shape: {
         type: "Path",
@@ -153,7 +144,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 87,
       shape: {
         type: "Path",
@@ -169,7 +159,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 88,
       shape: {
         type: "Path",
@@ -185,7 +174,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 89,
       shape: {
         type: "Path",
@@ -201,7 +189,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 90,
       shape: {
         type: "Path",
@@ -217,7 +204,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 96,
       shape: {
         type: "Path",
@@ -233,7 +219,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 97,
       shape: {
         type: "Path",
@@ -249,7 +234,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 98,
       shape: {
         type: "Path",
@@ -265,7 +249,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 100,
       shape: {
         type: "Path",
@@ -281,7 +264,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 97,
       shape: {
         type: "Path",
@@ -297,7 +279,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 99,
       shape: {
         type: "Path",
@@ -313,7 +294,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 93,
       shape: {
         type: "Path",
@@ -329,29 +309,12 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 95,
       shape: {
         type: "Path",
         data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
       },
       addInfo: "Chair"
-    },
-    {
-      id: "DoorcloseLGolks6sp2",
-      offsetX: 895.000000000002,
-      offsetY: 350.00000000000114,
-      width: 60,
-      height: 60,
-      rotateAngle: 90,
-      flip: 0,
-      flipMode: "All",
-      zIndex: 105,
-      shape: {
-        type: "Path",
-        data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
-      },
-      addInfo: "Door close"
     },
     {
       id: "RoommxeRn",
@@ -361,7 +324,6 @@ const MathuraFirstFloorData = {
       height: 40,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 107,
       shape: {
         type: "Path",
@@ -382,7 +344,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 127,
       shape: {
         type: "Path",
@@ -398,7 +359,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 128,
       shape: {
         type: "Path",
@@ -414,7 +374,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 131,
       shape: {
         type: "Path",
@@ -430,7 +389,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 133,
       shape: {
         type: "Path",
@@ -446,7 +404,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 134,
       shape: {
         type: "Path",
@@ -462,7 +419,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 135,
       shape: {
         type: "Path",
@@ -478,7 +434,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 136,
       shape: {
         type: "Path",
@@ -494,7 +449,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 142,
       shape: {
         type: "Path",
@@ -510,7 +464,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 145,
       shape: {
         type: "Path",
@@ -526,7 +479,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 146,
       shape: {
         type: "Path",
@@ -542,7 +494,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 153,
       shape: {
         type: "Path",
@@ -558,7 +509,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 154,
       shape: {
         type: "Path",
@@ -574,7 +524,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 156,
       shape: {
         type: "Path",
@@ -590,7 +539,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 157,
       shape: {
         type: "Path",
@@ -606,7 +554,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 158,
       shape: {
         type: "Path",
@@ -622,7 +569,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 162,
       shape: {
         type: "Path",
@@ -638,7 +584,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 163,
       shape: {
         type: "Path",
@@ -654,7 +599,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 165,
       shape: {
         type: "Path",
@@ -670,7 +614,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 167,
       shape: {
         type: "Path",
@@ -686,7 +629,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 169,
       shape: {
         type: "Path",
@@ -702,7 +644,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 170,
       shape: {
         type: "Path",
@@ -718,7 +659,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 172,
       shape: {
         type: "Path",
@@ -734,7 +674,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 173,
       shape: {
         type: "Path",
@@ -750,7 +689,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 174,
       shape: {
         type: "Path",
@@ -766,7 +704,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 175,
       shape: {
         type: "Path",
@@ -782,7 +719,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 177,
       shape: {
         type: "Path",
@@ -798,7 +734,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 178,
       shape: {
         type: "Path",
@@ -814,7 +749,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 179,
       shape: {
         type: "Path",
@@ -830,7 +764,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 180,
       shape: {
         type: "Path",
@@ -846,7 +779,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 181,
       shape: {
         type: "Path",
@@ -862,7 +794,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 183,
       shape: {
         type: "Path",
@@ -878,7 +809,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 184,
       shape: {
         type: "Path",
@@ -894,7 +824,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 185,
       shape: {
         type: "Path",
@@ -910,7 +839,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 186,
       shape: {
         type: "Path",
@@ -926,7 +854,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 187,
       shape: {
         type: "Path",
@@ -942,7 +869,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 188,
       shape: {
         type: "Path",
@@ -958,7 +884,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 189,
       shape: {
         type: "Path",
@@ -974,7 +899,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 190,
       shape: {
         type: "Path",
@@ -990,7 +914,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 191,
       shape: {
         type: "Path",
@@ -1006,7 +929,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 192,
       shape: {
         type: "Path",
@@ -1022,7 +944,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 193,
       shape: {
         type: "Path",
@@ -1038,7 +959,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 194,
       shape: {
         type: "Path",
@@ -1054,7 +974,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 195,
       shape: {
         type: "Path",
@@ -1070,7 +989,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 196,
       shape: {
         type: "Path",
@@ -1086,7 +1004,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 197,
       shape: {
         type: "Path",
@@ -1102,7 +1019,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 199,
       shape: {
         type: "Path",
@@ -1118,7 +1034,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 200,
       shape: {
         type: "Path",
@@ -1134,7 +1049,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 201,
       shape: {
         type: "Path",
@@ -1150,7 +1064,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 227,
       shape: {
         type: "Path",
@@ -1166,7 +1079,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 228,
       shape: {
         type: "Path",
@@ -1182,7 +1094,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 229,
       shape: {
         type: "Path",
@@ -1198,7 +1109,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 230,
       shape: {
         type: "Path",
@@ -1214,7 +1124,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 231,
       shape: {
         type: "Path",
@@ -1230,7 +1139,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 232,
       shape: {
         type: "Path",
@@ -1246,7 +1154,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 233,
       shape: {
         type: "Path",
@@ -1262,7 +1169,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 234,
       shape: {
         type: "Path",
@@ -1278,7 +1184,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 235,
       shape: {
         type: "Path",
@@ -1294,7 +1199,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 236,
       shape: {
         type: "Path",
@@ -1310,7 +1214,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 237,
       shape: {
         type: "Path",
@@ -1326,7 +1229,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 238,
       shape: {
         type: "Path",
@@ -1342,7 +1244,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 240,
       shape: {
         type: "Path",
@@ -1358,7 +1259,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 241,
       shape: {
         type: "Path",
@@ -1374,7 +1274,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 242,
       shape: {
         type: "Path",
@@ -1390,7 +1289,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 243,
       shape: {
         type: "Path",
@@ -1406,7 +1304,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 244,
       shape: {
         type: "Path",
@@ -1422,7 +1319,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 246,
       shape: {
         type: "Path",
@@ -1438,7 +1334,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 247,
       shape: {
         type: "Path",
@@ -1454,7 +1349,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 249,
       shape: {
         type: "Path",
@@ -1470,7 +1364,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 250,
       shape: {
         type: "Path",
@@ -1486,7 +1379,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 252,
       shape: {
         type: "Path",
@@ -1502,7 +1394,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 253,
       shape: {
         type: "Path",
@@ -1518,7 +1409,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 254,
       shape: {
         type: "Path",
@@ -1534,7 +1424,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 255,
       shape: {
         type: "Path",
@@ -1550,7 +1439,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 256,
       shape: {
         type: "Path",
@@ -1566,7 +1454,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 257,
       shape: {
         type: "Path",
@@ -1582,7 +1469,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 258,
       shape: {
         type: "Path",
@@ -1598,7 +1484,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 259,
       shape: {
         type: "Path",
@@ -1614,7 +1499,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 260,
       shape: {
         type: "Path",
@@ -1630,7 +1514,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 261,
       shape: {
         type: "Path",
@@ -1646,7 +1529,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 262,
       shape: {
         type: "Path",
@@ -1662,7 +1544,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 263,
       shape: {
         type: "Path",
@@ -1678,7 +1559,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 264,
       shape: {
         type: "Path",
@@ -1694,7 +1574,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 265,
       shape: {
         type: "Path",
@@ -1710,7 +1589,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 266,
       shape: {
         type: "Path",
@@ -1726,7 +1604,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 268,
       shape: {
         type: "Path",
@@ -1742,7 +1619,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 269,
       shape: {
         type: "Path",
@@ -1758,7 +1634,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 270,
       shape: {
         type: "Path",
@@ -1774,7 +1649,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 271,
       shape: {
         type: "Path",
@@ -1790,7 +1664,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 272,
       shape: {
         type: "Path",
@@ -1806,7 +1679,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 273,
       shape: {
         type: "Path",
@@ -1822,7 +1694,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 274,
       shape: {
         type: "Path",
@@ -1838,7 +1709,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 275,
       shape: {
         type: "Path",
@@ -1854,7 +1724,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 276,
       shape: {
         type: "Path",
@@ -1870,7 +1739,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 277,
       shape: {
         type: "Path",
@@ -1886,7 +1754,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 278,
       shape: {
         type: "Path",
@@ -1902,7 +1769,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 279,
       shape: {
         type: "Path",
@@ -1918,7 +1784,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 280,
       shape: {
         type: "Path",
@@ -1934,7 +1799,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 281,
       shape: {
         type: "Path",
@@ -1950,7 +1814,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 282,
       shape: {
         type: "Path",
@@ -1966,7 +1829,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 283,
       shape: {
         type: "Path",
@@ -1982,7 +1844,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 284,
       shape: {
         type: "Path",
@@ -1998,7 +1859,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 285,
       shape: {
         type: "Path",
@@ -2014,7 +1874,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 286,
       shape: {
         type: "Path",
@@ -2030,7 +1889,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 287,
       shape: {
         type: "Path",
@@ -2046,7 +1904,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 288,
       shape: {
         type: "Path",
@@ -2062,7 +1919,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 289,
       shape: {
         type: "Path",
@@ -2078,7 +1934,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 290,
       shape: {
         type: "Path",
@@ -2094,7 +1949,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 291,
       shape: {
         type: "Path",
@@ -2110,7 +1964,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 328,
       shape: {
         type: "Path",
@@ -2126,7 +1979,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 320,
       shape: {
         type: "Path",
@@ -2142,7 +1994,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 317,
       shape: {
         type: "Path",
@@ -2158,7 +2009,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 315,
       shape: {
         type: "Path",
@@ -2174,7 +2024,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 311,
       shape: {
         type: "Path",
@@ -2190,7 +2039,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 313,
       shape: {
         type: "Path",
@@ -2206,7 +2054,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 329,
       shape: {
         type: "Path",
@@ -2222,7 +2069,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 325,
       shape: {
         type: "Path",
@@ -2238,7 +2084,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 327,
       shape: {
         type: "Path",
@@ -2254,7 +2099,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 332,
       shape: {
         type: "Path",
@@ -2270,7 +2114,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 333,
       shape: {
         type: "Path",
@@ -2286,7 +2129,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 334,
       shape: {
         type: "Path",
@@ -2302,7 +2144,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 335,
       shape: {
         type: "Path",
@@ -2318,7 +2159,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 336,
       shape: {
         type: "Path",
@@ -2334,7 +2174,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 337,
       shape: {
         type: "Path",
@@ -2350,7 +2189,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 338,
       shape: {
         type: "Path",
@@ -2366,7 +2204,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 339,
       shape: {
         type: "Path",
@@ -2382,7 +2219,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 340,
       shape: {
         type: "Path",
@@ -2398,7 +2234,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 344,
       shape: {
         type: "Path",
@@ -2414,7 +2249,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 345,
       shape: {
         type: "Path",
@@ -2430,7 +2264,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 346,
       shape: {
         type: "Path",
@@ -2446,7 +2279,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 347,
       shape: {
         type: "Path",
@@ -2462,7 +2294,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 348,
       shape: {
         type: "Path",
@@ -2478,7 +2309,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 349,
       shape: {
         type: "Path",
@@ -2494,7 +2324,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 350,
       shape: {
         type: "Path",
@@ -2510,7 +2339,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 351,
       shape: {
         type: "Path",
@@ -2526,7 +2354,6 @@ const MathuraFirstFloorData = {
       height: 120.99999999999997,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 355,
       shape: {
         type: "Path",
@@ -2547,7 +2374,6 @@ const MathuraFirstFloorData = {
       height: 119.99999999999997,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 356,
       shape: {
         type: "Path",
@@ -2564,11 +2390,10 @@ const MathuraFirstFloorData = {
       id: "DoorcloseLGolks6sp2TDZMu",
       offsetX: 370,
       offsetY: 1010,
-      width: 60.00000000000001,
-      height: 60,
+      width: 40,
+      height: 40,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 357,
       shape: {
         type: "Path",
@@ -2580,8 +2405,8 @@ const MathuraFirstFloorData = {
       id: "DoorcloseLGolks6sp2TDZMuDBsZJ",
       offsetX: 370,
       offsetY: 1130,
-      width: 60.00000000000001,
-      height: 60,
+      width: 40,
+      height: 40,
       zIndex: 358,
       shape: {
         type: "Path",
@@ -2597,7 +2422,6 @@ const MathuraFirstFloorData = {
       height: 408.26031250000017,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 359,
       shape: {
         type: "Path",
@@ -2613,7 +2437,6 @@ const MathuraFirstFloorData = {
       height: 120.99999999999997,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 360,
       shape: {
         type: "Path",
@@ -2634,7 +2457,6 @@ const MathuraFirstFloorData = {
       height: 120.99999999999997,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 361,
       shape: {
         type: "Path",
@@ -2655,7 +2477,6 @@ const MathuraFirstFloorData = {
       height: 80.76249999999987,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 362,
       shape: {
         type: "Path",
@@ -2671,7 +2492,6 @@ const MathuraFirstFloorData = {
       height: 80.76249999999987,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 363,
       shape: {
         type: "Path",
@@ -2687,7 +2507,6 @@ const MathuraFirstFloorData = {
       height: 99.42973572486203,
       rotateAngle: 90,
       flip: 0,
-      flipMode: "All",
       zIndex: 364,
       shape: {
         type: "Path",
@@ -2697,14 +2516,13 @@ const MathuraFirstFloorData = {
     },
     {
       id: "DoorcloseLGolkTbg2o",
-      offsetX: 600.9950000000132,
-      offsetY: 1387.5018749999992,
-      width: 60,
-      height: 60,
+      offsetX: 591.02,
+      offsetY: 1387.5,
+      width: 40,
+      height: 40,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
-      zIndex: 365,
+      zIndex: 395,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -2719,7 +2537,6 @@ const MathuraFirstFloorData = {
       height: 40,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 371,
       shape: {
         type: "Path",
@@ -2740,7 +2557,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 372,
       shape: {
         type: "Path",
@@ -2756,7 +2572,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 373,
       shape: {
         type: "Path",
@@ -2772,7 +2587,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 374,
       shape: {
         type: "Path",
@@ -2788,7 +2602,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 375,
       shape: {
         type: "Path",
@@ -2804,7 +2617,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 376,
       shape: {
         type: "Path",
@@ -2820,7 +2632,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 377,
       shape: {
         type: "Path",
@@ -2836,7 +2647,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 378,
       shape: {
         type: "Path",
@@ -2852,7 +2662,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 379,
       shape: {
         type: "Path",
@@ -2868,7 +2677,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 380,
       shape: {
         type: "Path",
@@ -2884,7 +2692,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 381,
       shape: {
         type: "Path",
@@ -2900,7 +2707,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 382,
       shape: {
         type: "Path",
@@ -2916,7 +2722,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 383,
       shape: {
         type: "Path",
@@ -2932,7 +2737,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 384,
       shape: {
         type: "Path",
@@ -2948,7 +2752,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 385,
       shape: {
         type: "Path",
@@ -2964,7 +2767,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 386,
       shape: {
         type: "Path",
@@ -2980,7 +2782,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 388,
       shape: {
         type: "Path",
@@ -2996,7 +2797,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 389,
       shape: {
         type: "Path",
@@ -3012,7 +2812,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 390,
       shape: {
         type: "Path",
@@ -3028,7 +2827,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 391,
       shape: {
         type: "Path",
@@ -3044,7 +2842,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 392,
       shape: {
         type: "Path",
@@ -3060,7 +2857,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 393,
       shape: {
         type: "Path",
@@ -3076,7 +2872,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 394,
       shape: {
         type: "Path",
@@ -3092,7 +2887,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 395,
       shape: {
         type: "Path",
@@ -3108,7 +2902,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 396,
       shape: {
         type: "Path",
@@ -3124,7 +2917,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 397,
       shape: {
         type: "Path",
@@ -3140,7 +2932,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 398,
       shape: {
         type: "Path",
@@ -3156,7 +2947,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 399,
       shape: {
         type: "Path",
@@ -3172,7 +2962,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 400,
       shape: {
         type: "Path",
@@ -3188,7 +2977,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 401,
       shape: {
         type: "Path",
@@ -3204,7 +2992,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 402,
       shape: {
         type: "Path",
@@ -3220,7 +3007,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 405,
       shape: {
         type: "Path",
@@ -3236,7 +3022,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 406,
       shape: {
         type: "Path",
@@ -3252,7 +3037,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 407,
       shape: {
         type: "Path",
@@ -3268,7 +3052,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 408,
       shape: {
         type: "Path",
@@ -3284,7 +3067,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 409,
       shape: {
         type: "Path",
@@ -3300,7 +3082,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 410,
       shape: {
         type: "Path",
@@ -3316,7 +3097,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 411,
       shape: {
         type: "Path",
@@ -3332,7 +3112,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 414,
       shape: {
         type: "Path",
@@ -3348,7 +3127,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 415,
       shape: {
         type: "Path",
@@ -3364,7 +3142,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 416,
       shape: {
         type: "Path",
@@ -3380,7 +3157,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 417,
       shape: {
         type: "Path",
@@ -3396,7 +3172,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 418,
       shape: {
         type: "Path",
@@ -3412,7 +3187,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 419,
       shape: {
         type: "Path",
@@ -3428,7 +3202,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 420,
       shape: {
         type: "Path",
@@ -3444,7 +3217,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 421,
       shape: {
         type: "Path",
@@ -3460,7 +3232,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 422,
       shape: {
         type: "Path",
@@ -3476,7 +3247,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 423,
       shape: {
         type: "Path",
@@ -3492,7 +3262,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 424,
       shape: {
         type: "Path",
@@ -3508,7 +3277,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 428,
       shape: {
         type: "Path",
@@ -3524,7 +3292,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 429,
       shape: {
         type: "Path",
@@ -3540,7 +3307,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 431,
       shape: {
         type: "Path",
@@ -3556,7 +3322,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 432,
       shape: {
         type: "Path",
@@ -3572,7 +3337,6 @@ const MathuraFirstFloorData = {
       height: 304.18083251953146,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 433,
       shape: {
         type: "Path",
@@ -3593,7 +3357,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 434,
       shape: {
         type: "Path",
@@ -3609,7 +3372,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 435,
       shape: {
         type: "Path",
@@ -3625,7 +3387,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 436,
       shape: {
         type: "Path",
@@ -3641,7 +3402,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 437,
       shape: {
         type: "Path",
@@ -3657,7 +3417,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 438,
       shape: {
         type: "Path",
@@ -3673,7 +3432,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 439,
       shape: {
         type: "Path",
@@ -3689,7 +3447,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 440,
       shape: {
         type: "Path",
@@ -3705,7 +3462,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 441,
       shape: {
         type: "Path",
@@ -3721,7 +3477,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 442,
       shape: {
         type: "Path",
@@ -3737,7 +3492,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 443,
       shape: {
         type: "Path",
@@ -3753,7 +3507,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 444,
       shape: {
         type: "Path",
@@ -3769,7 +3522,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 445,
       shape: {
         type: "Path",
@@ -3785,7 +3537,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 446,
       shape: {
         type: "Path",
@@ -3801,7 +3552,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 447,
       shape: {
         type: "Path",
@@ -3817,7 +3567,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 448,
       shape: {
         type: "Path",
@@ -3829,11 +3578,10 @@ const MathuraFirstFloorData = {
       id: "DoorcloseLGolkTbg2ofaWdQ",
       offsetX: 943.4346135151222,
       offsetY: 1929.996640625008,
-      width: 60,
-      height: 60,
+      width: 40,
+      height: 40,
       rotateAngle: 90,
       flip: 0,
-      flipMode: "All",
       zIndex: 450,
       shape: {
         type: "Path",
@@ -3849,7 +3597,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 451,
       shape: {
         type: "Path",
@@ -3865,7 +3612,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 452,
       shape: {
         type: "Path",
@@ -3881,7 +3627,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 453,
       shape: {
         type: "Path",
@@ -3897,7 +3642,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 454,
       shape: {
         type: "Path",
@@ -3913,7 +3657,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 455,
       shape: {
         type: "Path",
@@ -3929,7 +3672,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 456,
       shape: {
         type: "Path",
@@ -3945,7 +3687,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 457,
       shape: {
         type: "Path",
@@ -3961,7 +3702,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 458,
       shape: {
         type: "Path",
@@ -3977,7 +3717,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 459,
       shape: {
         type: "Path",
@@ -3993,7 +3732,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 460,
       shape: {
         type: "Path",
@@ -4009,7 +3747,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 461,
       shape: {
         type: "Path",
@@ -4025,7 +3762,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 462,
       shape: {
         type: "Path",
@@ -4041,7 +3777,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 463,
       shape: {
         type: "Path",
@@ -4057,7 +3792,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 464,
       shape: {
         type: "Path",
@@ -4073,7 +3807,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 465,
       shape: {
         type: "Path",
@@ -4089,7 +3822,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 467,
       shape: {
         type: "Path",
@@ -4105,7 +3837,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 468,
       shape: {
         type: "Path",
@@ -4121,7 +3852,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 469,
       shape: {
         type: "Path",
@@ -4137,7 +3867,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 470,
       shape: {
         type: "Path",
@@ -4153,7 +3882,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 471,
       shape: {
         type: "Path",
@@ -4169,7 +3897,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 472,
       shape: {
         type: "Path",
@@ -4185,7 +3912,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 473,
       shape: {
         type: "Path",
@@ -4201,7 +3927,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 474,
       shape: {
         type: "Path",
@@ -4217,7 +3942,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 475,
       shape: {
         type: "Path",
@@ -4233,7 +3957,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 476,
       shape: {
         type: "Path",
@@ -4249,7 +3972,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 477,
       shape: {
         type: "Path",
@@ -4265,7 +3987,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 478,
       shape: {
         type: "Path",
@@ -4281,7 +4002,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 479,
       shape: {
         type: "Path",
@@ -4297,7 +4017,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 480,
       shape: {
         type: "Path",
@@ -4313,7 +4032,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 481,
       shape: {
         type: "Path",
@@ -4329,7 +4047,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 483,
       shape: {
         type: "Path",
@@ -4345,7 +4062,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 484,
       shape: {
         type: "Path",
@@ -4361,7 +4077,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 485,
       shape: {
         type: "Path",
@@ -4377,7 +4092,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 486,
       shape: {
         type: "Path",
@@ -4393,7 +4107,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 487,
       shape: {
         type: "Path",
@@ -4409,7 +4122,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 488,
       shape: {
         type: "Path",
@@ -4425,7 +4137,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 489,
       shape: {
         type: "Path",
@@ -4441,7 +4152,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 490,
       shape: {
         type: "Path",
@@ -4457,7 +4167,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 491,
       shape: {
         type: "Path",
@@ -4473,7 +4182,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 492,
       shape: {
         type: "Path",
@@ -4489,7 +4197,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 493,
       shape: {
         type: "Path",
@@ -4505,7 +4212,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 494,
       shape: {
         type: "Path",
@@ -4521,7 +4227,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 495,
       shape: {
         type: "Path",
@@ -4537,7 +4242,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 496,
       shape: {
         type: "Path",
@@ -4553,7 +4257,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 497,
       shape: {
         type: "Path",
@@ -4569,7 +4272,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 499,
       shape: {
         type: "Path",
@@ -4585,7 +4287,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 500,
       shape: {
         type: "Path",
@@ -4601,7 +4302,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 501,
       shape: {
         type: "Path",
@@ -4617,7 +4317,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 502,
       shape: {
         type: "Path",
@@ -4633,7 +4332,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 503,
       shape: {
         type: "Path",
@@ -4649,7 +4347,6 @@ const MathuraFirstFloorData = {
       height: 53,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 504,
       shape: {
         type: "Path",
@@ -4665,7 +4362,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 505,
       shape: {
         type: "Path",
@@ -4681,7 +4377,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 506,
       shape: {
         type: "Path",
@@ -4697,7 +4392,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 507,
       shape: {
         type: "Path",
@@ -4713,7 +4407,6 @@ const MathuraFirstFloorData = {
       height: 68.5500087527352,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 508,
       shape: {
         type: "Path",
@@ -4729,7 +4422,6 @@ const MathuraFirstFloorData = {
       height: 240.0000000000001,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 509,
       shape: {
         type: "Path",
@@ -4750,7 +4442,6 @@ const MathuraFirstFloorData = {
       height: 185.23,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 510,
       shape: {
         type: "Path",
@@ -4771,7 +4462,6 @@ const MathuraFirstFloorData = {
       height: 185.23,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 511,
       shape: {
         type: "Path",
@@ -4792,7 +4482,6 @@ const MathuraFirstFloorData = {
       height: 119.99958374023427,
       rotateAngle: 0,
       flip: 0,
-      flipMode: "All",
       zIndex: 512,
       shape: {
         type: "Path",
@@ -4804,11 +4493,10 @@ const MathuraFirstFloorData = {
       id: "DoorcloseLGolkTbg2ofaWdQOwspt",
       offsetX: 1030.002841350834,
       offsetY: 1990.0035382080073,
-      width: 60,
-      height: 60,
+      width: 40,
+      height: 40,
       rotateAngle: 180,
       flip: 0,
-      flipMode: "All",
       zIndex: 513,
       shape: {
         type: "Path",
@@ -4820,11 +4508,10 @@ const MathuraFirstFloorData = {
       id: "DoorcloseLGolkTbg2ofaWdQOwsptKDPHM",
       offsetX: 970.0000000001878,
       offsetY: 2109.9947918701228,
-      width: 60,
-      height: 60,
+      width: 40,
+      height: 40,
       rotateAngle: 90,
       flip: 1,
-      flipMode: "All",
       zIndex: 514,
       shape: {
         type: "Path",
@@ -4836,11 +4523,10 @@ const MathuraFirstFloorData = {
       id: "DoorcloseLGolkTbg2ofaWdQOwsptKDPHMVrPuC",
       offsetX: 769.9987500002283,
       offsetY: 2110.004791870132,
-      width: 60,
-      height: 60,
+      width: 40,
+      height: 40,
       rotateAngle: 90,
       flip: 1,
-      flipMode: "All",
       zIndex: 515,
       shape: {
         type: "Path",
@@ -4852,11 +4538,10 @@ const MathuraFirstFloorData = {
       id: "DoorcloseLGolkTbg2ofaWdQOwsptKDPHMVrPuCo2pfX",
       offsetX: 562.9906250002282,
       offsetY: 2055.229791870132,
-      width: 60,
-      height: 60,
+      width: 40,
+      height: 40,
       rotateAngle: 90,
       flip: 1,
-      flipMode: "All",
       zIndex: 516,
       shape: {
         type: "Path",
@@ -4872,13 +4557,27 @@ const MathuraFirstFloorData = {
       height: 63.36,
       rotateAngle: 270,
       flip: 0,
-      flipMode: "All",
       zIndex: 518,
       shape: {
         type: "Path",
         data: "M143 71V79L1 79L1 71M143 71L1 71M143 71V1H142C103.34 1 72 32.3401 72 71M143 71H72M1 71L1 1H2C40.6599 1 72 32.3401 72 71M1 71L72 71M72 78.5V71"
       },
       addInfo: "Double Door Close"
+    },
+    {
+      id: "DoorcloseLGolks6sp2",
+      offsetX: 894.77,
+      offsetY: 361.98,
+      width: 40,
+      height: 40,
+      rotateAngle: 90,
+      flip: 0,
+      zIndex: 805,
+      shape: {
+        type: "Path",
+        data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
+      },
+      addInfo: "Door close"
     },
   ],
   connectors: [
@@ -4893,44 +4592,7 @@ const MathuraFirstFloorData = {
         x: 115,
         y: 2265
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 7,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4q",
@@ -4943,44 +4605,7 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 0
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 8,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2Hxm01",
@@ -4993,95 +4618,35 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 2265
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 12,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2R0Rlf",
       addInfo: "Line Connector - Stroke 2",
       type: "Straight",
       sourcePoint: {
-        x: 570,
-        y: 60
+        x: 572,
+        y: 0
       },
       targetPoint: {
-        x: 570,
+        x: 572,
         y: 100
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 46,
-      shape: {
-        type: "None"
+    },
+    {
+      id: "ConnectorStroke2R0RlfqldBm",
+      addInfo: "Line Connector - Stroke 2",
+      type: "Straight",
+      sourcePoint: {
+        x: 573,
+        y: 1357.5
       },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      targetPoint: {
+        x: 573,
+        y: 1452.5
       },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
+      zIndex: 47,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZK",
@@ -5094,44 +4659,7 @@ const MathuraFirstFloorData = {
         x: 866.25,
         y: 96.25
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 49,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKhq7FE",
@@ -5142,46 +4670,9 @@ const MathuraFirstFloorData = {
       },
       targetPoint: {
         x: 866,
-        y: 337
+        y: 377.5
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 69,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3",
@@ -5194,43 +4685,9 @@ const MathuraFirstFloorData = {
         x: 848.39,
         y: 300.5
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 101,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5242,47 +4699,10 @@ const MathuraFirstFloorData = {
         y: 380
       },
       targetPoint: {
-        x: 925,
+        x: 863.75,
         y: 380
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
-      zIndex: 106,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
+      zIndex: 10,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfe",
@@ -5295,43 +4715,9 @@ const MathuraFirstFloorData = {
         x: 455.18,
         y: 300.63
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 159,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5345,43 +4731,9 @@ const MathuraFirstFloorData = {
         x: 454.76,
         y: 98.51
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 182,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5395,43 +4747,9 @@ const MathuraFirstFloorData = {
         x: 455.6,
         y: 518
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 198,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5445,43 +4763,9 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 518
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 251,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5495,43 +4779,9 @@ const MathuraFirstFloorData = {
         x: 455.61,
         y: 736
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 267,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5545,94 +4795,9 @@ const MathuraFirstFloorData = {
         x: 1120.01,
         y: 736
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 292,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
-    },
-    {
-      id: "ConnectorStroke2R0RlfqldBm",
-      addInfo: "Line Connector - Stroke 2",
-      type: "Straight",
-      sourcePoint: {
-        x: 570.99,
-        y: 1417.5
-      },
-      targetPoint: {
-        x: 571.25,
-        y: 1453.75
-      },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
-      zIndex: 366,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5646,44 +4811,7 @@ const MathuraFirstFloorData = {
         x: 845,
         y: 1455
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 367,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKhq7FEwnKqQ",
@@ -5696,44 +4824,7 @@ const MathuraFirstFloorData = {
         x: 844.59,
         y: 1654.4
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 368,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmo",
@@ -5746,43 +4837,9 @@ const MathuraFirstFloorData = {
         x: 455.74,
         y: 1278.37
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 387,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5796,43 +4853,9 @@ const MathuraFirstFloorData = {
         x: 455.16,
         y: 1465
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 403,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5846,43 +4869,9 @@ const MathuraFirstFloorData = {
         x: 845,
         y: 1656.25
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 430,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5896,43 +4885,9 @@ const MathuraFirstFloorData = {
         x: 913.54,
         y: 1862.95
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 449,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5946,43 +4901,9 @@ const MathuraFirstFloorData = {
         x: 455.72,
         y: 1657.13
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 466,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -5996,43 +4917,9 @@ const MathuraFirstFloorData = {
         x: 456.14,
         y: 1862.63
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 482,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -6046,43 +4933,9 @@ const MathuraFirstFloorData = {
         x: 456.56,
         y: 2065
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 498,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
+      style: {
+        strokeWidth: 2
       }
     },
     {
@@ -6097,44 +4950,7 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 2265
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 517,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     }
   ]
 };
