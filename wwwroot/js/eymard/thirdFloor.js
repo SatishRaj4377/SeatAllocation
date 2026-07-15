@@ -444,22 +444,6 @@ const EymardThirdFloorData = {
       addInfo: "Chair"
     },
     {
-      id: "RoomP3xQl",
-      offsetX: 288,
-      offsetY: 1287,
-      width: 60,
-      height: 100,
-      rotateAngle: 0,
-      flip: 0,
-      flipMode: "All",
-      zIndex: 142,
-      shape: {
-        type: "Path",
-        data: "M4 4H104V104H4V4Z"
-      },
-      addInfo: "Room"
-    },
-    {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpUyQNJir8d1GwRIVeK1WT",
       offsetX: 368,
       offsetY: 1259.5,
@@ -1477,6 +1461,22 @@ const EymardThirdFloorData = {
       flip: 0,
       flipMode: "All",
       zIndex: 143,
+      shape: {
+        type: "Path",
+        data: "M4 4H104V104H4V4Z"
+      },
+      addInfo: "Room"
+    },
+    {
+      id: "RoomP3xQl",
+      offsetX: 288,
+      offsetY: 1287,
+      width: 60,
+      height: 100,
+      rotateAngle: 0,
+      flip: 0,
+      flipMode: "All",
+      zIndex: 142,
       shape: {
         type: "Path",
         data: "M4 4H104V104H4V4Z"
