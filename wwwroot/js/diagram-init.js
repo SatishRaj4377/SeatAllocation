@@ -82,14 +82,10 @@ function initializeDiagrams() {
                 }
                 connector.constraints= (ej.diagrams.ConnectorConstraints.Default | ej.diagrams.ConnectorConstraints.ReadOnly) & ~ej.diagrams.ConnectorConstraints.Select;
                 connector.style.strokeColor = connector.style.strokeColor || 'black';
-                connector.style.strokeWidth = 2;
+                connector.style.strokeWidth = connector.style.strokeWidth !== 1 ? connector.style.strokeWidth : 6;
                 
-                if (!connector.targetDecorator) {
-                    connector.targetDecorator = { shape: 'None' };
-                }
-                if (!connector.sourceDecorator) {
-                    connector.sourceDecorator = { shape: 'None' };
-                }
+                connector.targetDecorator = { shape: 'None' };
+                connector.sourceDecorator = { shape: 'None' };
                 return connector;
             };
             

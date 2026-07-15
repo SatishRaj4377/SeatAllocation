@@ -1712,10 +1712,6 @@ const EymardFirstFloorData = {
         y: 1480
       },
       zIndex: 7,
-      style: {
-        strokeWidth: 2,
-        strokeColor: "black",
-      },
     },
     {
       id: "ConnectorStroke2EZM4q",
@@ -1910,6 +1906,9 @@ const EymardFirstFloorData = {
         x: 123,
         y: 300
       },
+      style: {
+        strokeWidth: 2
+      },
       zIndex: 113,
     },
     {
@@ -1922,6 +1921,9 @@ const EymardFirstFloorData = {
       targetPoint: {
         x: 820,
         y: 492.5
+      },
+      style: {
+        strokeWidth: 2
       },
       zIndex: 169,
     },
@@ -1936,6 +1938,9 @@ const EymardFirstFloorData = {
         x: 821,
         y: 538
       },
+      style: {
+        strokeWidth: 2
+      },
       zIndex: 185,
     },
     {
@@ -1948,6 +1953,9 @@ const EymardFirstFloorData = {
       targetPoint: {
         x: 920,
         y: 1062
+      },
+      style: {
+        strokeWidth: 2
       },
       zIndex: 210,
     }
