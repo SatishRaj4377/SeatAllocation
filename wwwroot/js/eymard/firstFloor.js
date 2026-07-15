@@ -8,7 +8,6 @@ const EymardFirstFloorData = {
       width: 40,
       height: 40,
       rotateAngle: 90,
-      zIndex: -8,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -22,7 +21,6 @@ const EymardFirstFloorData = {
       width: 40,
       height: 40,
       rotateAngle: 90,
-      zIndex: -7,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -36,7 +34,6 @@ const EymardFirstFloorData = {
       width: 40,
       height: 40,
       rotateAngle: 90,
-      zIndex: -6,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -50,7 +47,6 @@ const EymardFirstFloorData = {
       width: 40,
       height: 40,
       rotateAngle: 0,
-      zIndex: -4,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -77,7 +73,6 @@ const EymardFirstFloorData = {
       offsetY: 680,
       width: 40,
       height: 40,
-      zIndex: -1,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -105,7 +100,6 @@ const EymardFirstFloorData = {
       width: 40,
       height: 40,
       rotateAngle: 0,
-      zIndex: 1,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -132,7 +126,6 @@ const EymardFirstFloorData = {
       offsetY: 680,
       width: 40,
       height: 40,
-      zIndex: 3,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
@@ -146,7 +139,6 @@ const EymardFirstFloorData = {
       width: 40,
       height: 40,
       rotateAngle: 90,
-      zIndex: 4,
       shape: {
         type: "Path",
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
