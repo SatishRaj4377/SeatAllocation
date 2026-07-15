@@ -2,6 +2,31 @@
  *  Diagram Initialization
  */
 
+// Tooltip template function for chair seats
+function seatTooltipTemplate(node) {
+    const seatNumber = node.annotations && node.annotations[0] ? node.annotations[0].content : "N/A";
+    const floorNumber = 2; // Static floor number for this diagram
+    const isBooked = node.addInfo && node.addInfo.Booked ? true : false;
+    const status = isBooked ? "Booked" : "Available";
+    const statusBg = isBooked ? "#6c757d" : "#17a2b8";
+
+    return `
+      <div style="margin:0;padding:10px;font-family:Arial,sans-serif;min-width:150px;">
+        <div style="font-weight:bold;margin-bottom:5px;font-size:14px;">
+          Seat ${seatNumber}
+        </div>
+        <div style="font-size:12px;margin-bottom:3px;">
+          <strong>Floor No:</strong> ${floorNumber}
+        </div>
+        <div style="font-size:12px;margin-top:5px;">
+          <span style="padding:2px 6px;border-radius:3px;font-weight:bold;background-color:${statusBg};color:white;font-size:11px;">
+            ${status}
+          </span>
+        </div>
+      </div>
+    `;
+}
+
 // Function to initialize diagrams with their floor data
 function initializeDiagrams() {
     // Define diagram configurations with their respective data sources
@@ -86,6 +111,12 @@ function initializeDiagrams() {
                     node.annotations[0].style.fontSize = 22;
                     node.annotations[0].style.bold = true;
                 }
+                
+                // Add tooltip only for chair nodes
+                if (isChair) {
+                    node.tooltip = { content: seatTooltipTemplate(node) };
+                }
+                
                 return node;
             };
             
