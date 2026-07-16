@@ -330,8 +330,8 @@ const MathuraFirstFloorData = {
     },
     {
       id: "RoommxeRn",
-      offsetX: 1005.6100000000001,
-      offsetY: 203,
+      offsetX: 994.497109301851,
+      offsetY: 156.5,
       width: 180,
       height: 40,
       rotateAngle: 0,
@@ -2180,7 +2180,6 @@ const MathuraFirstFloorData = {
         type: "Path",
         data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
       },
-      annotations: [{ content: "0" }],
       addInfo: { type: "Chair", isExcluded: true, isReserved: false }
     },
     {
@@ -4740,8 +4739,40 @@ const MathuraFirstFloorData = {
       addInfo: "Double Door Close"
     },
     {
+      id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNS0hWZ",
+      offsetX: 880.4971093018511,
+      offsetY: 248.50000000000003,
+      width: 48,
+      height: 53,
+      rotateAngle: 0,
+      flip: 0,
+      zIndex: 2,
+      shape: {
+        type: "Path",
+        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+      },
+      annotations: [{ content: "153" }],
+      addInfo: { type: "Chair", isExcluded: false, isReserved: false }
+    },
+    {
+      id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XUgB4a",
+      offsetX: 880.4971093018519,
+      offsetY: 349.5,
+      width: 48,
+      height: 53,
+      rotateAngle: 180,
+      flip: 0,
+      zIndex: 2,
+            shape: {
+        type: "Path",
+        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+      },
+      annotations: [{ content: "152" }],
+      addInfo: { type: "Chair", isExcluded: false, isReserved: false }
+    },
+    {
       id: "DoorcloseLGolks6sp2",
-      offsetX: 894.77,
+      offsetX: 948.39,
       offsetY: 361.98,
       width: 40,
       height: 40,
@@ -4753,6 +4784,16 @@ const MathuraFirstFloorData = {
         data: "M1 71L1 79L72 79V71M1 71L72 71M1 71C1 32.3401 32.3401 1 71 1H72V71"
       },
       addInfo: "Door close"
+    },
+    {
+      id: "RectangleStudyTableTE09CIG78uaIWMJeHo3hlFU1bXwNkbya0NTXuo8TvDnkeHTKR0Lu5a3",
+      offsetX: 880.497109301851,
+      offsetY: 298.13,
+      width: 63.7400000000054,
+      height: 68.5500087527352,
+      rotateAngle: 270,
+      flip: 0,
+      zIndex: 33
     },
   ],
   connectors: [
@@ -4767,7 +4808,7 @@ const MathuraFirstFloorData = {
         x: 115,
         y: 2265
       },
-      zIndex: 7,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2EZM4q",
@@ -4780,7 +4821,7 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 0
       },
-      zIndex: 8,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2Hxm01",
@@ -4793,7 +4834,7 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 2265
       },
-      zIndex: 12,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2R0Rlf",
@@ -4807,7 +4848,7 @@ const MathuraFirstFloorData = {
         x: 572,
         y: 100
       },
-      zIndex: 46,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2R0RlfqldBm",
@@ -4821,7 +4862,7 @@ const MathuraFirstFloorData = {
         x: 573,
         y: 1452.5
       },
-      zIndex: 47,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZK",
@@ -4834,20 +4875,20 @@ const MathuraFirstFloorData = {
         x: 866.25,
         y: 96.25
       },
-      zIndex: 49,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKhq7FE",
       type: "Straight",
       sourcePoint: {
-        x: 866,
-        y: 97
+        x: 869,
+        y: 93
       },
       targetPoint: {
-        x: 866,
-        y: 377.5
+        x: 869,
+        y: 213
       },
-      zIndex: 69,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3",
@@ -4857,10 +4898,10 @@ const MathuraFirstFloorData = {
         y: 300
       },
       targetPoint: {
-        x: 848.39,
-        y: 300.5
+        x: 915,
+        y: 300
       },
-      zIndex: 101,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -4874,10 +4915,10 @@ const MathuraFirstFloorData = {
         y: 380
       },
       targetPoint: {
-        x: 863.75,
+        x: 925,
         y: 380
       },
-      zIndex: 10,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfe",
@@ -4890,7 +4931,7 @@ const MathuraFirstFloorData = {
         x: 455.18,
         y: 300.63
       },
-      zIndex: 159,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -4906,7 +4947,7 @@ const MathuraFirstFloorData = {
         x: 454.76,
         y: 98.51
       },
-      zIndex: 182,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -4922,7 +4963,7 @@ const MathuraFirstFloorData = {
         x: 455.6,
         y: 518
       },
-      zIndex: 198,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -4938,7 +4979,7 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 518
       },
-      zIndex: 251,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -4954,7 +4995,7 @@ const MathuraFirstFloorData = {
         x: 455.61,
         y: 736
       },
-      zIndex: 267,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -4970,7 +5011,7 @@ const MathuraFirstFloorData = {
         x: 1120.01,
         y: 736
       },
-      zIndex: 292,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -4986,7 +5027,7 @@ const MathuraFirstFloorData = {
         x: 845,
         y: 1455
       },
-      zIndex: 367,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKhq7FEwnKqQ",
@@ -4999,7 +5040,7 @@ const MathuraFirstFloorData = {
         x: 844.59,
         y: 1654.4
       },
-      zIndex: 368,
+      zIndex: 10000,
     },
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmo",
@@ -5012,7 +5053,7 @@ const MathuraFirstFloorData = {
         x: 455.74,
         y: 1278.37
       },
-      zIndex: 387,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -5028,7 +5069,7 @@ const MathuraFirstFloorData = {
         x: 455.16,
         y: 1465
       },
-      zIndex: 403,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -5044,7 +5085,7 @@ const MathuraFirstFloorData = {
         x: 845,
         y: 1656.25
       },
-      zIndex: 430,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -5060,7 +5101,7 @@ const MathuraFirstFloorData = {
         x: 913.54,
         y: 1862.95
       },
-      zIndex: 449,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -5076,7 +5117,7 @@ const MathuraFirstFloorData = {
         x: 455.72,
         y: 1657.13
       },
-      zIndex: 466,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -5092,7 +5133,7 @@ const MathuraFirstFloorData = {
         x: 456.14,
         y: 1862.63
       },
-      zIndex: 482,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -5108,7 +5149,7 @@ const MathuraFirstFloorData = {
         x: 456.56,
         y: 2065
       },
-      zIndex: 498,
+      zIndex: 10000,
       style: {
         strokeWidth: 2
       }
@@ -5125,7 +5166,29 @@ const MathuraFirstFloorData = {
         x: 1120,
         y: 2265
       },
-      zIndex: 517,
-    }
+    },
+    {
+      id: "ConnectorStroke2R0Rlfeg6RyBnA8l",
+      type: "Straight",
+      sourcePoint: {
+        x: 926.25,
+        y: 210
+      },
+      targetPoint: {
+        x: 868.39,
+        y: 210
+      },
+    },
+    {
+      id: "ConnectorStroke2EZM4qfDUZKhq7FEs86LX",
+      sourcePoint: {
+        x: 923.75,
+        y: 206.71
+      },
+      targetPoint: {
+        x: 923.75,
+        y: 382.96
+      },
+    },
   ]
 };
