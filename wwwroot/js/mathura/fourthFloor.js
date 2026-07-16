@@ -4938,44 +4938,7 @@ const MathuraFourthFloorData = {
         x: 110,
         y: 2440
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 7,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4q",
@@ -4988,44 +4951,7 @@ const MathuraFourthFloorData = {
         x: 1200,
         y: 0
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 8,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2Hxm01",
@@ -5038,44 +4964,7 @@ const MathuraFourthFloorData = {
         x: 1200,
         y: 1660
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 12,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2TBg7w",
@@ -5089,44 +4978,7 @@ const MathuraFourthFloorData = {
         x: 1203,
         y: 1570.58
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 517,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4qxKNTscE539U46eqRv7Oi",
@@ -5139,44 +4991,7 @@ const MathuraFourthFloorData = {
         x: 760,
         y: 1070
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 189,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2EZM4qxKNTscE539U46eqRv7OiTRe22",
@@ -5189,44 +5004,7 @@ const MathuraFourthFloorData = {
         x: 115.19,
         y: 1070.35
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 265,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2TBg7wwKMFdDaU9G",
@@ -5240,44 +5018,7 @@ const MathuraFourthFloorData = {
         x: 520,
         y: 1570
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 275,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     },
     {
       id: "ConnectorStroke2TBg7wVC4MD",
@@ -5291,44 +5032,7 @@ const MathuraFourthFloorData = {
         x: 1206.25,
         y: 2441.25
       },
-      sourceID: "",
-      targetID: "",
-      sourcePortID: "",
-      targetPortID: "",
-      segments: [
-        {
-          type: "Straight",
-          point: {
-            x: 0,
-            y: 0
-          }
-        }
-      ],
-      cornerRadius: 0,
-      flip: 0,
-      flipMode: "All",
       zIndex: 442,
-      shape: {
-        type: "None"
-      },
-      sourceDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      },
-      targetDecorator: {
-        shape: "None",
-        width: 10,
-        height: 10,
-        pivot: {
-          x: 0,
-          y: 0.5
-        }
-      }
     }
   ]
 };
