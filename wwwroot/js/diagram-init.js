@@ -6,11 +6,15 @@
 const diagramStates = new Map();
 
 // Helper function to check if addInfo represents a chair
-// Handles both formats: string "Chair" and object {type: "Chair", reserved: false}
+// Handles both formats: string "Chair" and object {type: "Chair", isReserved: false, isExcluded: false}
 function isChairNode(addInfo) {
     if (typeof addInfo === 'string') {
         return addInfo.toLowerCase().includes('chair');
     } else if (addInfo && typeof addInfo === 'object' && addInfo.type) {
+        // Return false if the chair is excluded
+        if (addInfo.isExcluded === true) {
+            return false;
+        }
         return addInfo.type === 'Chair' || addInfo.type === 'chair';
     }
     return false;
@@ -18,8 +22,8 @@ function isChairNode(addInfo) {
 
 // Helper function to check if a chair is reserved
 function isChairReserved(addInfo) {
-    if (typeof addInfo === 'object' && addInfo.reserved !== undefined) {
-        return addInfo.reserved === true;
+    if (typeof addInfo === 'object' && addInfo.isReserved !== undefined) {
+        return addInfo.isReserved === true;
     }
     // Legacy format support - no reserved property
     return false;
@@ -28,7 +32,7 @@ function isChairReserved(addInfo) {
 // Helper function to mark a chair as reserved
 function setChairReserved(addInfo, reserved) {
     if (typeof addInfo === 'object') {
-        addInfo.reserved = reserved;
+        addInfo.isReserved = reserved;
     }
 }
 
