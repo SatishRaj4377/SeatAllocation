@@ -995,8 +995,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgth4N3a0X4PuSUEk",
-      offsetX: 615.2731249999999,
-      offsetY: 715.4966666666666,
+      offsetX: 576.585,
+      offsetY: 713.4966666666666,
       width: 60,
       height: 60,
       rotateAngle: 0,
@@ -1014,8 +1014,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgth4N3DxKToF41VZCUwwf",
-      offsetX: 615.2731249999999,
-      offsetY: 860.5066666666665,
+      offsetX: 576.6231249999996,
+      offsetY: 861.5066666666665,
       width: 60,
       height: 60,
       rotateAngle: 180,
@@ -1033,8 +1033,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgth4N3TLvXiLL5domBuRT",
-      offsetX: 550.53,
-      offsetY: 715.4966666666652,
+      offsetX: 503.44500000000005,
+      offsetY: 713.4966666666666,
       width: 60,
       height: 60,
       rotateAngle: 0,
@@ -1052,8 +1052,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgth4N3TLvXicO5oATJNmcVNgHx",
-      offsetX: 550.52,
-      offsetY: 860.5066666666652,
+      offsetX: 503.4849999999997,
+      offsetY: 861.5066666666652,
       width: 60,
       height: 60,
       rotateAngle: 180,
@@ -1071,8 +1071,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgCcul1mKwxt",
-      offsetX: 680.026640625,
-      offsetY: 715.4966666666666,
+      offsetX: 649.6099999999999,
+      offsetY: 713.4966666666666,
       width: 60,
       height: 60,
       rotateAngle: 0,
@@ -1090,8 +1090,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgUuF5vOQTh9T9KNo",
-      offsetX: 680.026640625,
-      offsetY: 860.5066666666665,
+      offsetX: 649.6416406249986,
+      offsetY: 861.5066666666665,
       width: 60,
       height: 60,
       rotateAngle: 180,
@@ -1109,10 +1109,10 @@ const EymardGroundFloorData = {
     },
     {
       id: "RectangleStudyTableTE09CIG78uBLZq9gGKk3P9oLmFTpd4ZustaE5xrwKWNVt",
-      offsetX: 550.5250000000041,
+      offsetX: 503.4481249999992,
       offsetY: 788,
       width: 112,
-      height: 64.75,
+      height: 73.09063901916227,
       rotateAngle: 90,
       zIndex: 43,
       shape: {
@@ -1123,10 +1123,10 @@ const EymardGroundFloorData = {
     },
     {
       id: "RectangleStudyTableTE09CIG78uBLZq9gGKk3P9oLmFTpd4ZustaE5xrwKWNVtg0tuK",
-      offsetX: 615.2750000000069,
+      offsetX: 576.5856249999993,
       offsetY: 788,
       width: 112,
-      height: 64.75,
+      height: 73.18383663637097,
       rotateAngle: 90,
       zIndex: 45,
       shape: {
@@ -1137,10 +1137,10 @@ const EymardGroundFloorData = {
     },
     {
       id: "RectangleStudyTableTE09CIG78uBLZq9gGKk3P9oLmFTpd4ZustaE5xrwKWNVtg0tuKhc10e",
-      offsetX: 680.0200000000071,
+      offsetX: 649.6097395833334,
       offsetY: 788,
       width: 112,
-      height: 64.75,
+      height: 72.8650168457796,
       rotateAngle: 90,
       zIndex: 47,
       shape: {
@@ -1151,10 +1151,10 @@ const EymardGroundFloorData = {
     },
     {
       id: "RectangleStudyTableTE09CIG78uBLZq9gGKk3P9oLmFTpd4ZustaE5xrwKWNVtg0tuKhc10eL77hv",
-      offsetX: 744.7750000000074,
+      offsetX: 722.6300000000075,
       offsetY: 788,
       width: 112,
-      height: 64.75,
+      height: 73.18556090123954,
       rotateAngle: 90,
       zIndex: 60,
       shape: {
@@ -1165,10 +1165,10 @@ const EymardGroundFloorData = {
     },
     {
       id: "RectangleStudyTableTE09CIG78uBLZq9gGKk3P9oLmFTpd4ZustaE5xrwKWNVtg0tuKhc10eL77hvHsMrI",
-      offsetX: 809.5250000000075,
+      offsetX: 868.6918749999998,
       offsetY: 788,
       width: 112,
-      height: 64.75,
+      height: 73.11054587467075,
       rotateAngle: 90,
       zIndex: 65,
       shape: {
@@ -1179,10 +1179,10 @@ const EymardGroundFloorData = {
     },
     {
       id: "RectangleStudyTableTE09CIG78uBLZq9gGKk3P9oLmFTpd4ZustaE5xrwKWNVtg0tuKhc10eL77hvHsMrIPTTlv",
-      offsetX: 874.2700000000075,
+      offsetX: 795.7000000000002,
       offsetY: 788,
       width: 112,
-      height: 64.75,
+      height: 72.87001072549381,
       rotateAngle: 90,
       zIndex: 60,
       shape: {
@@ -1193,8 +1193,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgCcul1mKwxtyLnqm",
-      offsetX: 744.7766666666666,
-      offsetY: 715.49328125,
+      offsetX: 722.63,
+      offsetY: 713.4966666666666,
       width: 60,
       height: 60,
       rotateAngle: 0,
@@ -1212,8 +1212,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgUuF5vOQTh9T9KNoGmtZH",
-      offsetX: 744.7766666666666,
-      offsetY: 860.50328125,
+      offsetX: 722.6616666666665,
+      offsetY: 861.51328125,
       width: 60,
       height: 60,
       rotateAngle: 180,
@@ -1231,8 +1231,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgCcul1mKwxtyLnqmPdZC5",
-      offsetX: 809.5265625,
-      offsetY: 715.4933203125,
+      offsetX: 795.7,
+      offsetY: 713.4966666666666,
       width: 60,
       height: 60,
       rotateAngle: 0,
@@ -1250,8 +1250,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgUuF5vOQTh9T9KNoGmtZHym4V8",
-      offsetX: 809.5265625,
-      offsetY: 860.5033203125,
+      offsetX: 795.7315624999997,
+      offsetY: 861.5133203125,
       width: 60,
       height: 60,
       rotateAngle: 180,
@@ -1269,8 +1269,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgCcul1mKwxtyLnqmPdZC5fPrUU",
-      offsetX: 874.2765625,
-      offsetY: 715.4925,
+      offsetX: 868.6949999999999,
+      offsetY: 713.4966666666666,
       width: 60,
       height: 60,
       rotateAngle: 0,
@@ -1288,8 +1288,8 @@ const EymardGroundFloorData = {
     },
     {
       id: "ChairKLXTgUuF5vOQTh9T9KNoGmtZHym4V8XiTa8",
-      offsetX: 874.2765625,
-      offsetY: 860.5024999999999,
+      offsetX: 868.6915624999992,
+      offsetY: 861.5124999999999,
       width: 60,
       height: 60,
       rotateAngle: 180,
@@ -1536,7 +1536,7 @@ const EymardGroundFloorData = {
         y: 790
       },
       targetPoint: {
-        x: 520,
+        x: 467.5,
         y: 790
       },
       zIndex: 81,
