@@ -5,6 +5,31 @@
 // Selection state management - per diagram
 const diagramStates = new Map();
 
+// ==================== CHAIR STYLING CONSTANTS ====================
+// Selected chair styling
+const CHAIR_SELECTED_FILL = '#86efac';       // Light green
+const CHAIR_SELECTED_STROKE = '#22c55e';     // Green border
+const CHAIR_SELECTED_TEXT = '#166534';       // Dark green text
+
+// Available chair styling
+const CHAIR_AVAILABLE_FILL = 'white';
+const CHAIR_AVAILABLE_STROKE = 'black';
+const CHAIR_AVAILABLE_TEXT = '#000000';      // Black text
+
+// Reserved chair styling
+const CHAIR_RESERVED_FILL = '#d1d5db';       // Gray
+const CHAIR_RESERVED_STROKE = '#9ca3af';     // Gray border
+const CHAIR_RESERVED_TEXT = '#6b7280';       // Gray text
+
+// Annotation styling
+const ANNOTATION_FONT_SIZE = 22;
+const ANNOTATION_FONT_WEIGHT = true;
+const ANNOTATION_MARGIN_TOP = 5;
+
+// Default node styling
+const DEFAULT_NODE_STROKE_WIDTH = 2;
+const DEFAULT_CONNECTOR_STROKE_WIDTH = 6;
+
 // Helper function to check if addInfo represents a chair
 // Handles both formats: string "Chair" and object {type: "Chair", isReserved: false, isExcluded: false}
 function isChairNode(addInfo) {
@@ -192,24 +217,24 @@ function initializeDiagrams() {
                     typeof node.addInfo === 'string' &&
                     node.addInfo.toLowerCase().includes('overlay');
 
-                node.style.fill = node.style.fill || 'white';
-                node.style.strokeColor = node.style.strokeColor || 'black';
-                node.style.strokeWidth = isDoorOverlay ? 0 : 2;
-                node.constraints= (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.ReadOnly) & ~ej.diagrams.NodeConstraints.Select;
+                node.style.fill = node.style.fill || CHAIR_AVAILABLE_FILL;
+                node.style.strokeColor = node.style.strokeColor || CHAIR_AVAILABLE_STROKE;
+                node.style.strokeWidth = isDoorOverlay ? 0 : DEFAULT_NODE_STROKE_WIDTH;
+                node.constraints= (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.ReadOnly | ej.diagrams.NodeConstraints.Tooltip) & ~ej.diagrams.NodeConstraints.Select;
                 if (node.annotations && node.annotations[0]){
                     if (isChair) {
                         node.annotations[0].margin = {
-                            top: 5
+                            top: ANNOTATION_MARGIN_TOP
                         };
                     }
 
-                    node.annotations[0].style.fontSize = 22;
-                    node.annotations[0].style.bold = true;
+                    node.annotations[0].style.fontSize = ANNOTATION_FONT_SIZE;
+                    node.annotations[0].style.bold = ANNOTATION_FONT_WEIGHT;
                 }
                 
                 // Add tooltip only for chair nodes
                 if (isChair) {
-                    // node.tooltip = { content: seatTooltipTemplate(node, diagramElement), relativeMode: 'Object' };
+                    node.tooltip = { content: seatTooltipTemplate(node, diagramElement), relativeMode: 'Object' };
                 }
                 
                 return node;
@@ -221,8 +246,8 @@ function initializeDiagrams() {
                     connector.style = {};
                 }
                 connector.constraints= (ej.diagrams.ConnectorConstraints.Default | ej.diagrams.ConnectorConstraints.ReadOnly) & ~ej.diagrams.ConnectorConstraints.Select;
-                connector.style.strokeColor = connector.style.strokeColor || 'black';
-                connector.style.strokeWidth = connector.style.strokeWidth !== 1 ? connector.style.strokeWidth : 6;
+                connector.style.strokeColor = connector.style.strokeColor || CHAIR_AVAILABLE_STROKE;
+                connector.style.strokeWidth = connector.style.strokeWidth !== 1 ? connector.style.strokeWidth : DEFAULT_CONNECTOR_STROKE_WIDTH;
                 
                 connector.targetDecorator = { shape: 'None' };
                 connector.sourceDecorator = { shape: 'None' };
@@ -303,14 +328,14 @@ function updateChairStyle(node, diagramElement) {
     }
     
     if (isChairSelected(diagramElement, node.id)) {
-        node.style.fill = '#86efac';  // Light green
-        node.style.strokeColor = '#22c55e';  // Green border
+        node.style.fill = CHAIR_SELECTED_FILL;
+        node.style.strokeColor = CHAIR_SELECTED_STROKE;
     } else {
-        node.style.fill = 'white';
-        node.style.strokeColor = 'black';
+        node.style.fill = CHAIR_AVAILABLE_FILL;
+        node.style.strokeColor = CHAIR_AVAILABLE_STROKE;
     }
     if (node.annotations && node.annotations[0]) {
-        node.annotations[0].style.color = isChairSelected(diagramElement, node.id) ? '#166534' : '#000000';
+        node.annotations[0].style.color = isChairSelected(diagramElement, node.id) ? CHAIR_SELECTED_TEXT : CHAIR_AVAILABLE_TEXT;
     }
     node.tooltip = { content: seatTooltipTemplate(node, diagramElement) };
     const state = getOrCreateDiagramState(diagramElement);
@@ -337,10 +362,10 @@ function reserveChairs(diagramElement) {
         if (node && isChairNode(node.addInfo)) {
             // Mark chair as reserved in addInfo
             setChairReserved(node.addInfo, true);
-            node.style.fill = '#d1d5db';  // Gray
-            node.style.strokeColor = '#9ca3af';
+            node.style.fill = CHAIR_RESERVED_FILL;
+            node.style.strokeColor = CHAIR_RESERVED_STROKE;
             if (node.annotations && node.annotations[0]) {
-                node.annotations[0].style.color = '#6b7280';
+                node.annotations[0].style.color = CHAIR_RESERVED_TEXT;
             }
             node.tooltip = { content: seatTooltipTemplate(node, diagramElement) };
         }
