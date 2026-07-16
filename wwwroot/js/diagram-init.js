@@ -24,7 +24,7 @@ const CHAIR_RESERVED_TEXT = '#6b7280';       // Gray text
 // Annotation styling
 const ANNOTATION_FONT_SIZE = 22;
 const ANNOTATION_FONT_WEIGHT = true;
-const ANNOTATION_MARGIN_TOP = 5;
+const ANNOTATION_MARGIN_TOP = 4;
 
 // Default node styling
 const DEFAULT_NODE_STROKE_WIDTH = 2;
