@@ -5469,6 +5469,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 572.39,
         y: 300
@@ -5570,6 +5573,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfe",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 112.44,
         y: 299.63
@@ -5620,6 +5626,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3TmcfeuWVXg",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 112.02,
         y: 97.51
@@ -5670,6 +5679,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFO",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 112.86,
         y: 517
@@ -5720,6 +5732,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOoHDWt",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 573.75,
         y: 520
@@ -5770,6 +5785,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4Fnx",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 112.87,
         y: 735
@@ -5820,6 +5838,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOoHDWtguZQi",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 573.76,
         y: 738
@@ -6021,6 +6042,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmo",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 113,
         y: 1277.37
@@ -6071,6 +6095,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmor7Jhi",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 112.42,
         y: 1464
@@ -6121,6 +6148,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3oOQLk",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 572.39,
         y: 1656.5
@@ -6171,6 +6201,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmor7JhiHFsCc",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 570.8,
         y: 1861.95
@@ -6221,6 +6254,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmor7JhiTk4Fk",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 112.98,
         y: 1656.13
@@ -6271,6 +6307,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmor7JhiTk4FkqtmoR",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 113.4,
         y: 1861.63
@@ -6321,6 +6360,9 @@ const MathuraSecondFloorData = {
     {
       id: "ConnectorStroke2EZM4qfDUZKJ0wL3Tmcfep2wFOf4FnxNIRmor7JhiTk4FkqtmoRBwamk",
       type: "Straight",
+      style: {
+        strokeWidth: 2
+      },
       sourcePoint: {
         x: 113.82,
         y: 2064
