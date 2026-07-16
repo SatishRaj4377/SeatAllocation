@@ -2760,8 +2760,8 @@ const MathuraThirdFloorData = {
     },
     {
       id: "RoommxeRnbkwl2",
-      offsetX: 1005.6050000000134,
-      offsetY: 1560.501874999999,
+      offsetX: 990.0000000000002,
+      offsetY: 1500.0000000000002,
       width: 180,
       height: 40,
       rotateAngle: 0,
@@ -3629,24 +3629,8 @@ const MathuraThirdFloorData = {
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
     },
     {
-      id: "RectangleStudyTableTE09CIG78uaIWMJeHo3hlFU1bXwNkbVE7VpIdNUIWOq4WZxVUvVuaVS",
-      offsetX: 878.59,
-      offsetY: 1671.41,
-      width: 31.19999999999867,
-      height: 68.5500087527352,
-      rotateAngle: 270,
-      flip: 0,
-      flipMode: "All",
-      zIndex: 432,
-      shape: {
-        type: "Path",
-        data: "M79 1H3C1.89543 1 1 1.89543 1 3V49C1 50.1046 1.89543 51 3 51H79C80.1046 51 81 50.1046 81 49V3C81 1.89543 80.1046 1 79 1Z"
-      },
-      addInfo: "Rectangle Study Table"
-    },
-    {
       id: "RoomT2edi",
-      offsetX: 1016.37,
+      offsetX: 1018.37,
       offsetY: 1712.91,
       width: 207,
       height: 114.18020812988311,
@@ -3659,6 +3643,39 @@ const MathuraThirdFloorData = {
         data: "M4 4H104V104H4V4Z"
       },
       addInfo: "Room"
+    },
+    {
+      id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNMPsLSvvMnn",
+      offsetX: 880.48,
+      offsetY: 1605.0001562499997,
+      width: 60,
+      height: 60,
+      rotateAngle: 0,
+      flip: 0,
+      flipMode: "All",
+      zIndex: 43,
+      shape: {
+        type: "Path",
+        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+      },
+      annotations: [{ content: "52" }],
+      addInfo: { type: "Chair", isExcluded: false, isReserved: false }
+    },
+ {
+      id: "RectangleStudyTableTE09CIG78uaIWMJeHo3hlFU1bXwNkbya0NTXuo8TvDnkeoJ8RLs670Cx2wuS",
+      offsetX: 880.4793716633754,
+      offsetY: 1655.6325524902304,
+      width: 63.7400000000054,
+      height: 69.36790830688471,
+      rotateAngle: 270,
+      flip: 0,
+      flipMode: "All",
+      zIndex: 44,
+      shape: {
+        type: "Path",
+        data: "M79 1H3C1.89543 1 1 1.89543 1 3V49C1 50.1046 1.89543 51 3 51H79C80.1046 51 81 50.1046 81 49V3C81 1.89543 80.1046 1 79 1Z"
+      },
+      addInfo: "Rectangle Study Table"
     },
     {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yBrgJByZVvAMi9M4O",
@@ -3912,8 +3929,8 @@ const MathuraThirdFloorData = {
     },
     {
       id: "DoorcloseLGolkTbg2ofaWdQ",
-      offsetX: 934.5000000000025,
-      offsetY: 1750.0700000000002,
+      offsetX: 938.505,
+      offsetY: 1750,
       width: 40.1400290541334,
       height: 43.289999999999964,
       rotateAngle: 90,
@@ -6030,15 +6047,37 @@ const MathuraThirdFloorData = {
       }
     },
     {
+      id: "ConnectorStroke2EZM4qfDUZKhq7FEwnKqQgpSAH",
+      sourcePoint: {
+        x: 920,
+        y: 1566.25
+      },
+      targetPoint: {
+        x: 845,
+        y: 1566.25
+      }
+    },
+    {
+      id: "ConnectorStroke2EZM4qfDUZKhq7FEwnKqQgpSAHBM69V",
+      sourcePoint: {
+        x: 918.16,
+        y: 1655.82
+      },
+      targetPoint: {
+        x: 918.75,
+        y: 1563.75
+      }
+    },
+    {
       id: "ConnectorStroke2EZM4qfDUZKhq7FEwnKqQ",
       type: "Straight",
       sourcePoint: {
         x: 844.59,
-        y: 1454.4
+        y: 1453.4
       },
       targetPoint: {
-        x: 844.59,
-        y: 1654.4
+        x: 843.75,
+        y: 1569
       },
       sourceID: "",
       targetID: "",
@@ -6196,8 +6235,8 @@ const MathuraThirdFloorData = {
         y: 1656.5
       },
       targetPoint: {
-        x: 845,
-        y: 1656.25
+        x: 915,
+        y: 1655
       },
       sourceID: "",
       targetID: "",
