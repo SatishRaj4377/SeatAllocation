@@ -2535,7 +2535,7 @@ const MathuraThirdFloorData = {
       addInfo: "Room",
       annotations: [
         {
-          content: "MEETING ROOM"
+          content: "MEETING\nROOM"
         }
       ]
     },
@@ -4683,7 +4683,7 @@ const MathuraThirdFloorData = {
       addInfo: "Room",
       annotations: [
         {
-          content: "MEETING ROOM"
+          content: "MEETING\nROOM"
         }
       ]
     },
@@ -4986,7 +4986,7 @@ const MathuraThirdFloorData = {
       addInfo: "Room",
       annotations: [
         {
-          content: "MEETING ROOM"
+          content: "MEETING\nROOM"
         }
       ]
     },
