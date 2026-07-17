@@ -622,8 +622,8 @@ const MathuraFourthFloorData = {
       ]
     },
     {
-      id: "DoorcloseLGolks6sp2TDZMuDBsZJWOX3RnMNrC",
-      offsetX: 789.9998519315261,
+      id: "DoorcloseLGolks6sp2TDZMuDBsZJWOX3RnMNrCDF",
+      offsetX: 779.9998519315261,
       offsetY: 390.34000000000003,
       width: 40,
       height: 40,

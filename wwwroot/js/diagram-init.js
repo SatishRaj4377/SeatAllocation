@@ -81,7 +81,7 @@ function initializeDiagrams() {
                 node.annotations[0].style.bold = ANNOTATION_FONT_WEIGHT;
             }
             
-            if (isChair) node.tooltip = { content: seatTooltipTemplate(node, diagramElement), relativeMode: 'Object' };
+            if (isChair) node.tooltip = { content: seatTooltipTemplate(node, diagramElement) };
             return node;
         };
 
