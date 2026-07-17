@@ -263,8 +263,17 @@ function seatTooltipTemplate(node, diagramElement) {
 
 function createDoorOverlayNode(node) {     
     const angle = (node.rotateAngle || 0) * Math.PI / 180;
-    const dx = OVERLAY_X_OFFSET;
-    const dy = OVERLAY_Y_OFFSET;
+    const flip = node.flip || 0;
+    
+    const FLIP_HORIZONTAL = 1;
+    const FLIP_VERTICAL = 2;
+    
+    let dx = OVERLAY_X_OFFSET;
+    let dy = OVERLAY_Y_OFFSET;
+    
+    if (flip & FLIP_HORIZONTAL) dx = -dx;
+    if (flip & FLIP_VERTICAL) dy = -dy;
+    
     return {
         id: `${node.id}_overlay`,
         offsetX: node.offsetX + dx * Math.cos(angle) - dy * Math.sin(angle),
