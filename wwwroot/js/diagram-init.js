@@ -73,7 +73,7 @@ function initializeDiagrams() {
             node.style.fill = node.style.fill || CHAIR_AVAILABLE_FILL;
             node.style.strokeColor = node.style.strokeColor || CHAIR_AVAILABLE_STROKE;
             node.style.strokeWidth = isDoorOverlay ? 0 : DEFAULT_NODE_STROKE_WIDTH;
-            node.constraints = (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.ReadOnly | ej.diagrams.NodeConstraints.Tooltip);
+            node.constraints = (ej.diagrams.NodeConstraints.Default | ej.diagrams.NodeConstraints.ReadOnly | ej.diagrams.NodeConstraints.Tooltip) & ~ej.diagrams.NodeConstraints.Select;
             
             if (node.annotations && node.annotations[0]) {
                 if (isChair) node.annotations[0].margin = { top: ANNOTATION_MARGIN_TOP };
