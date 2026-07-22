@@ -20,14 +20,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQ",
       offsetX: 673.2300000000008,
       offsetY: 156.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "171" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -36,14 +36,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5",
       offsetX: 604.0100000000008,
       offsetY: 156.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "172" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -52,14 +52,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHm",
       offsetX: 741.7900000000008,
       offsetY: 156.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "170" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -68,14 +68,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5x",
       offsetX: 810.3500000000008,
       offsetY: 156.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "169" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -144,14 +144,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJ",
       offsetX: 675.6200000000008,
       offsetY: 349.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "153" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -160,14 +160,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nv",
       offsetX: 743.52,
       offsetY: 248.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "167" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -176,14 +176,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXN",
       offsetX: 812.74,
       offsetY: 248.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "168" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -192,14 +192,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1K",
       offsetX: 674.96,
       offsetY: 248.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "166" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -208,14 +208,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbB",
       offsetX: 606.4,
       offsetY: 248.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "165" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -224,14 +224,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKx",
       offsetX: 606.4000000000008,
       offsetY: 349.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "154" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -240,14 +240,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562R",
       offsetX: 744.1800000000007,
       offsetY: 349.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "152" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -256,14 +256,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4X",
       offsetX: 812.7400000000008,
       offsetY: 349.49999999999994,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "151" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -367,14 +367,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHh",
       offsetX: 215.6700000000008,
       offsetY: 349.1299336438402,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "158" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -383,14 +383,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFek",
       offsetX: 146.45000000000078,
       offsetY: 349.1299336438402,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "159" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -399,14 +399,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZc",
       offsetX: 284.23000000000076,
       offsetY: 349.1299336438402,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "157" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -415,14 +415,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJD",
       offsetX: 352.7900000000008,
       offsetY: 349.1299336438402,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "156" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -431,14 +431,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQH",
       offsetX: 215.01000000000005,
       offsetY: 248.12993364384027,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "161" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -462,14 +462,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LN",
       offsetX: 146.45,
       offsetY: 248.12993364384027,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "160" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -493,14 +493,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1",
       offsetX: 283.57,
       offsetY: 248.12993364384027,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "162" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -524,14 +524,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xB",
       offsetX: 352.79,
       offsetY: 248.12993364384027,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "163" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -555,14 +555,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZo",
       offsetX: 420.7900000000008,
       offsetY: 349.1299336438402,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "155" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -571,14 +571,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsX",
       offsetX: 420.79,
       offsetY: 248.12993364384027,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "164" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -602,14 +602,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHharwvy",
       offsetX: 215.2500000000008,
       offsetY: 146.9999999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "176" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -618,14 +618,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFekHamFG",
       offsetX: 146.03000000000077,
       offsetY: 146.9999999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "177" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -634,14 +634,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZcm5TKN",
       offsetX: 283.81000000000074,
       offsetY: 146.9999999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "175" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -650,14 +650,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDcppUa",
       offsetX: 352.3700000000008,
       offsetY: 146.9999999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "174" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -666,14 +666,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHaRDEh",
       offsetX: 214.59000000000003,
       offsetY: 46,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "179" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -697,14 +697,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNMoHCu",
       offsetX: 146.02999999999997,
       offsetY: 46,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "178" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -728,14 +728,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1sm5T6",
       offsetX: 283.15,
       offsetY: 46,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "180" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -759,14 +759,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBsUfNA",
       offsetX: 352.37,
       offsetY: 46,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "181" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -790,14 +790,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoh7nuM",
       offsetX: 420.3700000000008,
       offsetY: 146.9999999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "173" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -806,14 +806,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXWR1t4",
       offsetX: 420.37,
       offsetY: 46,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "182" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -837,14 +837,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtx",
       offsetX: 216.0900000000009,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "136" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -853,14 +853,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miu",
       offsetX: 146.87000000000089,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "137" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -869,14 +869,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6Smc",
       offsetX: 284.6500000000008,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "135" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -885,14 +885,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsG",
       offsetX: 353.21000000000083,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "134" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -901,14 +901,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGH",
       offsetX: 215.43000000000015,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "139" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -932,14 +932,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCh",
       offsetX: 146.8700000000001,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "138" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -963,14 +963,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOga",
       offsetX: 283.99,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "140" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -994,14 +994,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHC",
       offsetX: 353.21000000000004,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "141" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1025,14 +1025,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bx",
       offsetX: 421.21000000000083,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "133" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1041,14 +1041,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVn",
       offsetX: 421.21000000000004,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "142" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1072,14 +1072,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxAKxQe",
       offsetX: 880.4900000000011,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "128" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1088,14 +1088,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miucrKTk",
       offsetX: 811.2700000000011,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "129" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1104,14 +1104,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6Smcly8TQ",
       offsetX: 949.0500000000011,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "127" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1120,14 +1120,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGUKS8b",
       offsetX: 1017.610000000001,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "126" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1136,14 +1136,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqT",
       offsetX: 879.8300000000004,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "147" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1167,14 +1167,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4s",
       offsetX: 811.2700000000003,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "146" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1198,14 +1198,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLN",
       offsetX: 948.3900000000003,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "148" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1229,14 +1229,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCP9ylD",
       offsetX: 1017.6100000000001,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "149" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1260,14 +1260,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxSTvnr",
       offsetX: 1085.610000000001,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "125" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1276,14 +1276,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVni5lmW",
       offsetX: 1085.6100000000001,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "150" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1307,14 +1307,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxAKxQel2BPC",
       offsetX: 675.4900000000011,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "131" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1323,14 +1323,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miucrKTkMDbeP",
       offsetX: 606.2700000000011,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "132" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1339,14 +1339,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6Smcly8TQPi9Kd",
       offsetX: 744.050000000001,
       offsetY: 566.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "130" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1355,14 +1355,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTXDQhU",
       offsetX: 674.8300000000004,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "144" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1386,14 +1386,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4sPgebC",
       offsetX: 606.2700000000003,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "143" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1417,14 +1417,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLNGHK5F",
       offsetX: 743.3900000000002,
       offsetY: 465.50000000000006,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "145" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1448,14 +1448,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yB",
       offsetX: 216.10000000000514,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "110" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1464,14 +1464,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miudTkNV",
       offsetX: 146.8800000000051,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "111" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1480,14 +1480,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3",
       offsetX: 284.6600000000049,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "109" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1496,14 +1496,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0",
       offsetX: 353.220000000005,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "108" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1512,14 +1512,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHbXsQt",
       offsetX: 215.44000000000437,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "113" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1543,14 +1543,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCha3tdh",
       offsetX: 146.88000000000432,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "112" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1574,14 +1574,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2Men",
       offsetX: 284.00000000000415,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "114" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1605,14 +1605,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4H",
       offsetX: 353.2200000000042,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "115" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1636,14 +1636,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlM",
       offsetX: 421.220000000005,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "107" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1652,14 +1652,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24W",
       offsetX: 421.2200000000042,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "116" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1683,14 +1683,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxAKxQeCr7Tf",
       offsetX: 880.5000000000075,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "102" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1699,14 +1699,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miucrKTkR82n1",
       offsetX: 811.2800000000075,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "103" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1715,14 +1715,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6Smcly8TQg1xEO",
       offsetX: 949.0600000000074,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "101" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1731,14 +1731,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGUKS8bSZFPo",
       offsetX: 1017.6200000000074,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "100" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1747,14 +1747,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTN4pTw",
       offsetX: 879.8400000000067,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "121" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1778,14 +1778,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4skGqJP",
       offsetX: 811.2800000000066,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "120" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1809,14 +1809,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLNkZ9u9",
       offsetX: 948.4000000000067,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "122" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1840,14 +1840,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCP9ylDvrchW",
       offsetX: 1017.6200000000065,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "123" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1871,14 +1871,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxSTvnrDoQ17",
       offsetX: 1085.620000000005,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "99" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1887,14 +1887,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVni5lmWAosnT",
       offsetX: 1085.620000000004,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "124" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1918,14 +1918,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxAKxQel2BPCmPD1q",
       offsetX: 675.5000000000075,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "105" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1934,14 +1934,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miucrKTkMDbePmbaXT",
       offsetX: 606.2800000000075,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "106" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1950,14 +1950,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6Smcly8TQPi9KdLFysr",
       offsetX: 744.0600000000072,
       offsetY: 784.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "104" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1966,14 +1966,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTXDQhUrR905",
       offsetX: 674.8400000000067,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "118" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -1997,14 +1997,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4sPgebCcDNJU",
       offsetX: 606.2800000000066,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "117" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2028,14 +2028,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLNGHK5FPb6mD",
       offsetX: 743.4000000000065,
       offsetY: 683.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "119" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2059,14 +2059,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVni5lmWAosnTxMfAg",
       offsetX: 1083.2225000000103,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "98" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2075,14 +2075,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCP9ylDvrchWRIsPL",
       offsetX: 1015.2225000000126,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "97" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2091,14 +2091,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLNkZ9u9fTs28",
       offsetX: 946.0025000000128,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "96" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2107,14 +2107,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTN4pTww3GMk",
       offsetX: 877.4425000000128,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "95" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2123,14 +2123,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4skGqJPud2EF",
       offsetX: 808.8825000000127,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "94" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2139,14 +2139,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLNGHK5FPb6mDXe8CO",
       offsetX: 741.0025000000126,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "93" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2155,14 +2155,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTXDQhUrR905hGsKR",
       offsetX: 672.4425000000128,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "92" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2171,14 +2171,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4sPgebCcDNJUArM6M",
       offsetX: 603.8825000000127,
       offsetY: 895.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "91" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2307,14 +2307,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTN4pTww3GMkNvVyh",
       offsetX: 420.4425000003897,
       offsetY: 896.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "90" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2323,14 +2323,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4skGqJPud2EFCE2N6",
       offsetX: 351.88250000038954,
       offsetY: 896.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "89" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2339,14 +2339,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTXDQhUrR905hGsKRrUTAw",
       offsetX: 215.4425000003897,
       offsetY: 896.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "87" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2355,14 +2355,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4sPgebCcDNJUArM6Mxg7x3",
       offsetX: 146.88250000038943,
       offsetY: 896.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "86" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2386,14 +2386,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLNGHK5FPb6mDXe8COMKGBG",
       offsetX: 284.00250000038943,
       offsetY: 896.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "88" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2617,14 +2617,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yBrgJBy",
       offsetX: 216.23000000000945,
       offsetY: 1326.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "77" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2633,14 +2633,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miudTkNVfCkM9",
       offsetX: 147.01000000000943,
       offsetY: 1326.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "76" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2649,14 +2649,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3Tc9aV",
       offsetX: 284.79000000000923,
       offsetY: 1326.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "78" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2665,14 +2665,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0itLca",
       offsetX: 353.3500000000093,
       offsetY: 1326.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "79" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2681,14 +2681,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHbXsQtiKwWS",
       offsetX: 215.5700000000087,
       offsetY: 1225.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "84" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2712,14 +2712,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCha3tdhgZVIS",
       offsetX: 147.01000000000863,
       offsetY: 1225.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "85" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2743,14 +2743,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2MencIEun",
       offsetX: 284.13000000000847,
       offsetY: 1225.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "83" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2774,14 +2774,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4Hel1py",
       offsetX: 353.3500000000085,
       offsetY: 1225.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "82" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2805,14 +2805,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlMMdeTk",
       offsetX: 421.3500000000093,
       offsetY: 1326.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "80" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2821,14 +2821,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24WioQD3",
       offsetX: 421.3500000000085,
       offsetY: 1225.8700195312497,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "81" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2852,14 +2852,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yBrgJByZVvAM",
       offsetX: 215.65000000005267,
       offsetY: 1513.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "63" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2868,14 +2868,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miudTkNVfCkM9QwMMe",
       offsetX: 146.43000000005264,
       offsetY: 1513.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "62" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2884,14 +2884,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3Tc9aVE76Rh",
       offsetX: 284.21000000005245,
       offsetY: 1513.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "64" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2900,14 +2900,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0itLcafd2m9",
       offsetX: 352.7700000000525,
       offsetY: 1513.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "65" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2916,14 +2916,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHbXsQtiKwWSTQaIr",
       offsetX: 214.9900000000519,
       offsetY: 1412.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "74" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2947,14 +2947,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCha3tdhgZVISrQ3uv",
       offsetX: 146.43000000005185,
       offsetY: 1412.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "75" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -2978,14 +2978,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2MencIEunGuLvr",
       offsetX: 283.5500000000517,
       offsetY: 1412.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "73" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3009,14 +3009,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4Hel1pyrTTcn",
       offsetX: 352.7700000000517,
       offsetY: 1412.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "72" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3040,14 +3040,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlMMdeTkitpUk",
       offsetX: 420.7700000000525,
       offsetY: 1513.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "66" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3056,14 +3056,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24WioQD3dCSsh",
       offsetX: 420.7700000000517,
       offsetY: 1412.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "71" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3087,14 +3087,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQafeVE",
       offsetX: 673.2198067575083,
       offsetY: 1513.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "68" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3103,14 +3103,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5V4G78",
       offsetX: 603.9998067575083,
       offsetY: 1513.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "67" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3119,14 +3119,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmu84Af",
       offsetX: 741.7798067575083,
       offsetY: 1513.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "69" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3135,14 +3135,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xrB8bg",
       offsetX: 810.3398067575083,
       offsetY: 1513.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "70" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3196,14 +3196,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJfcZo5",
       offsetX: 673.6098067575083,
       offsetY: 1706.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "48" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3212,14 +3212,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxKnWKC",
       offsetX: 604.3898067575083,
       offsetY: 1706.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "47" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3228,14 +3228,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RB0aDH",
       offsetX: 742.1698067575082,
       offsetY: 1706.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "49" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3244,14 +3244,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4Xn3xbr",
       offsetX: 810.0696135150157,
       offsetY: 1706.0001562499997,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "50" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3260,14 +3260,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KP3JhA",
       offsetX: 672.9498067575075,
       offsetY: 1605.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "55" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3291,14 +3291,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBPqWNA",
       offsetX: 604.3898067575075,
       offsetY: 1605.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "56" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3322,14 +3322,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvmV34v",
       offsetX: 741.5098067575075,
       offsetY: 1605.0001562499995,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "54" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3353,14 +3353,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNMPsLS",
       offsetX: 810.0696135150149,
       offsetY: 1605.0001562499997,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "53" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3399,14 +3399,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xrB8bgraBZk",
       offsetX: 878.6123067576485,
       offsetY: 1706.0048437499956,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "51" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3430,14 +3430,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNMPsLSvvMnn",
       offsetX: 880.48,
       offsetY: 1605.0001562499997,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "52" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3461,14 +3461,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yBrgJByZVvAMi9M4O",
       offsetX: 674.0300000001562,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "22" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3477,14 +3477,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miudTkNVfCkM9QwMMesk47V",
       offsetX: 604.8100000001562,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "21" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3493,14 +3493,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3Tc9aVE76RhZlEQ4",
       offsetX: 742.590000000156,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "23" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3509,14 +3509,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0itLcafd2m9cn3Sq",
       offsetX: 811.150000000156,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "24" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3525,14 +3525,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHbXsQtiKwWSTQaIrJVgbE",
       offsetX: 673.3700000001554,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "35" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3556,14 +3556,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCha3tdhgZVISrQ3uvrLpCv",
       offsetX: 604.8100000001555,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "36" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3587,14 +3587,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2MencIEunGuLvrmaHnA",
       offsetX: 741.9300000001552,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "34" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3618,14 +3618,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4Hel1pyrTTcnwtyOM",
       offsetX: 811.1500000001553,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "33" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3649,14 +3649,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlMMdeTkitpUkoJNlp",
       offsetX: 879.150000000156,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "25" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3665,14 +3665,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24WioQD3dCSshWl2ME",
       offsetX: 879.1500000001553,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "2" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3711,14 +3711,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yBrgJByZVvAMi3KBb",
       offsetX: 216.2100000001568,
       offsetY: 1705.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "43" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3727,14 +3727,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miudTkNVfCkM9QwMMelaTkA",
       offsetX: 146.9900000001569,
       offsetY: 1705.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "42" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3743,14 +3743,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3Tc9aVE76RhiBVEE",
       offsetX: 284.77000000015653,
       offsetY: 1705.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "44" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3759,14 +3759,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0itLcafd2m9L4RhT",
       offsetX: 353.3300000001566,
       offsetY: 1705.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "45" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3775,14 +3775,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHbXsQtiKwWSTQaIrIUWPv",
       offsetX: 215.55000000015605,
       offsetY: 1604.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "60" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3806,14 +3806,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCha3tdhgZVISrQ3uvZ9Zb8",
       offsetX: 146.9900000001561,
       offsetY: 1604.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "61" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3837,14 +3837,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2MencIEunGuLvrJtgOb",
       offsetX: 284.11000000015576,
       offsetY: 1604.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "59" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3868,14 +3868,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4Hel1pyrTTcnBTQ4F",
       offsetX: 353.3300000001558,
       offsetY: 1604.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "58" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3899,14 +3899,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlMMdeTkitpUkXQrJn",
       offsetX: 421.3300000001566,
       offsetY: 1705.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "46" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3915,14 +3915,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24WioQD3dCSshArntT",
       offsetX: 421.3300000001558,
       offsetY: 1604.6300048828127,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "57" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3946,14 +3946,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yBrgJByZVvAMi3KBbnTdZL",
       offsetX: 216.63000000046873,
       offsetY: 1911.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "17" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3962,14 +3962,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miudTkNVfCkM9QwMMelaTkAqStsi",
       offsetX: 147.4100000004688,
       offsetY: 1911.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "16" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3978,14 +3978,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3Tc9aVE76RhiBVEERkeMf",
       offsetX: 285.19000000046844,
       offsetY: 1911.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "18" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -3994,14 +3994,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0itLcafd2m9L4RhTwt6X2",
       offsetX: 353.7500000004685,
       offsetY: 1911.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "19" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4010,14 +4010,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHbXsQtiKwWSTQaIrIUWPvDSTCE",
       offsetX: 215.97000000046796,
       offsetY: 1810.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "40" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4041,14 +4041,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCha3tdhgZVISrQ3uvZ9Zb8TTKXK",
       offsetX: 147.41000000046802,
       offsetY: 1810.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "41" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4072,14 +4072,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2MencIEunGuLvrJtgObPNlAi",
       offsetX: 284.5300000004677,
       offsetY: 1810.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "39" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4103,14 +4103,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4Hel1pyrTTcnBTQ4FnMxxQ",
       offsetX: 353.7500000004677,
       offsetY: 1810.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "38" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4134,14 +4134,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlMMdeTkitpUkXQrJntfl1v",
       offsetX: 421.7500000004685,
       offsetY: 1911.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "20" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4150,14 +4150,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24WioQD3dCSshArntTEZFkU",
       offsetX: 421.7500000004677,
       offsetY: 1810.1299999999999,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "37" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4181,14 +4181,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJOkvHhkowtxiv3yBrgJByZVvAMi3KBbnTdZLoeA4c",
       offsetX: 217.05000000280913,
       offsetY: 2113.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "7" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4197,14 +4197,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxfTFeka3miudTkNVfCkM9QwMMelaTkAqStsiG2V0s",
       offsetX: 147.83000000280921,
       offsetY: 2113.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "6" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4213,14 +4213,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3Tc9aVE76RhiBVEERkeMfMCGMV",
       offsetX: 285.6100000028087,
       offsetY: 2113.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "8" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4229,14 +4229,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0itLcafd2m9L4RhTwt6X2yrrPi",
       offsetX: 354.17000000280876,
       offsetY: 2113.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "9" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4245,14 +4245,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHbXsQtiKwWSTQaIrIUWPvDSTCEZSuLo",
       offsetX: 216.39000000280836,
       offsetY: 2012.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "14" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4276,14 +4276,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWCha3tdhgZVISrQ3uvZ9Zb8TTKXKKiH9V",
       offsetX: 147.83000000280842,
       offsetY: 2012.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "15" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4307,14 +4307,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2MencIEunGuLvrJtgObPNlAiDum6H",
       offsetX: 284.95000000280794,
       offsetY: 2012.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "13" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4338,14 +4338,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4Hel1pyrTTcnBTQ4FnMxxQufROG",
       offsetX: 354.17000000280797,
       offsetY: 2012.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "12" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4369,14 +4369,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlMMdeTkitpUkXQrJntfl1veelrW",
       offsetX: 422.17000000280876,
       offsetY: 2113.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "10" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4385,14 +4385,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24WioQD3dCSshArntTEZFkUv9wtH",
       offsetX: 422.17000000280797,
       offsetY: 2012.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "11" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4416,14 +4416,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTN4pTww3GMkNvVyhNnOXh",
       offsetX: 421.47000001169624,
       offsetY: 2211.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "1" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4432,14 +4432,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4skGqJPud2EFCE2N6W6K4N",
       offsetX: 352.91000001169607,
       offsetY: 2211.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "2" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4448,14 +4448,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RcbS1KpfPQHOFQGHhoEqTXDQhUrR905hGsKRrUTAwmHwiR",
       offsetX: 216.4700000116963,
       offsetY: 2211.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "4" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4464,14 +4464,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XH5sbBZo4LNGUWChdgg4sPgebCcDNJUArM6Mxg7x3NAxiA",
       offsetX: 147.910000011696,
       offsetY: 2211.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "5" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4495,14 +4495,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgawlVLNGHK5FPb6mDXe8COMKGBGZmeEv",
       offsetX: 285.03000001169596,
       offsetY: 2211.5,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "3" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4721,14 +4721,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiLL5dowdMNkPQHXnAlhfXCKnHmN562RvuvZch6SmcaTev3Tc9aVE76RhZlEQ4GLmQX",
       offsetX: 947.590000000156,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "26" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4737,14 +4737,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDTeXsGVaBt0itLcafd2m9cn3Sqli9Lr",
       offsetX: 1016.1500000001561,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "27" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4753,14 +4753,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3a0X4PdvFqcRdOycbUs8enfpXQRUgIJDB0nvEPFd1cEOgab2MencIEunGuLvrmaHnARAIgl",
       offsetX: 946.9300000001552,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "31" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4784,14 +4784,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBO0PHCc8v4Hel1pyrTTcnwtyOMlAPLH",
       offsetX: 1016.1500000001552,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "30" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4815,14 +4815,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgth4N3TLvXiFiTe0lL4VpKAbTruRC13dL7vptqZ5xAoV4XKtCJDLSaZoxq1bxXahlMMdeTkitpUkoJNlpIeDIa",
       offsetX: 1084.150000000156,
       offsetY: 1911.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 180,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "28" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
@@ -4831,14 +4831,14 @@ const MathuraThirdFloorData = {
       id: "ChairKLXTgCcul1ewwV5yeykTUFrhTrVye5t4hKxtpaXNUs5xBrTZsXgHRVnOn24WioQD3dCSshWl2MEQGQxo",
       offsetX: 1084.1500000001552,
       offsetY: 1810.4999999999998,
-      width: 60,
-      height: 60,
+      width: chairWidth,
+      height: chairHeight,
       rotateAngle: 0,
       flip: 0,
       flipMode: "All",
       shape: {
         type: "Path",
-        data: "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z"
+        data: chairPathData
       },
       annotations: [{ content: "29" }],
       addInfo: { type: "Chair", isExcluded: false, isReserved: false }
