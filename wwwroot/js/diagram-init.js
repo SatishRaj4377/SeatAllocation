@@ -19,6 +19,7 @@ const CHAIR_RESERVED_TEXT = '#6b7280';
 const ANNOTATION_FONT_SIZE = 27;
 const ANNOTATION_FONT_WEIGHT = true;
 const ANNOTATION_MARGIN_TOP = 0;
+const ANNOTATION_FONT_FAMILY = 'Segoe UI';
 
 const DEFAULT_NODE_STROKE_WIDTH = 2;
 const DEFAULT_CONNECTOR_STROKE_WIDTH = 6;
@@ -90,6 +91,7 @@ function initializeDiagrams() {
                 if (isChair) node.annotations[0].margin = { top: ANNOTATION_MARGIN_TOP };
                 node.annotations[0].style.fontSize = ANNOTATION_FONT_SIZE;
                 node.annotations[0].style.bold = ANNOTATION_FONT_WEIGHT;
+                node.annotations[0].style.fontFamily = ANNOTATION_FONT_FAMILY;
             }
             
             if (isChair) node.tooltip = { content: seatTooltipTemplate(node, diagramElement) };
