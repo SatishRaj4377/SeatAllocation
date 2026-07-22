@@ -69,6 +69,8 @@ function initializeDiagrams() {
             if (!node.style) node.style = {};
             const isChair = isChairNode(node.addInfo);
             const isDoorOverlay = typeof node.addInfo === 'string' && node.addInfo.toLowerCase().includes('overlay');
+            const isExcluded = node.addInfo && typeof node.addInfo === 'object' && node.addInfo.isExcluded === true;
+
             // Handle chair sizing: excluded chairs are 60x60, others keep their current dimensions
             if (isChair || isExcluded) {
                 if (isExcluded) {
@@ -76,6 +78,8 @@ function initializeDiagrams() {
                     node.height = 60;
                     node.shape.data = "M22 9V14M28 9.08984V14M13 54H37C41.4183 54 45 50.4183 45 46V22C45 17.5817 41.4183 14 37 14H13C8.58172 14 5 17.5817 5 22V46C5 50.4183 8.58172 54 13 54ZM3 45C1.89543 45 1 44.1046 1 43V25C1 23.8954 1.89543 23 3 23C4.10457 23 5 23.8954 5 25V43C5 44.1046 4.10457 45 3 45ZM11 5.79143C11 3.97975 12.2614 2.40196 14.0423 2.06981C22.0186 0.582241 27.6274 0.696364 35.7954 2.09976C37.6588 2.41991 39 4.05364 39 5.94429C39 8.4118 36.7616 10.2627 34.325 9.87346C27.5467 8.79067 22.4382 8.5351 15.7921 9.68406C13.3336 10.1091 11 8.28636 11 5.79143ZM47 45C45.8954 45 45 44.1046 45 43V25C45 23.8954 45.8954 23 47 23C48.1046 23 49 23.8954 49 25V43C49 44.1046 48.1046 45 47 45Z";
                 }
+                // Otherwise, keep the current width and height from the data
+            }
 
             node.style.fill = node.style.fill || CHAIR_AVAILABLE_FILL;
             node.style.strokeColor = node.style.strokeColor || CHAIR_AVAILABLE_STROKE;
